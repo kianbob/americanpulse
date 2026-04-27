@@ -14,6 +14,7 @@ const links = [
   { href: '/spending', label: 'Spending' },
   { href: '/transportation', label: 'Transport' },
   { href: '/regions', label: 'Regions' },
+  { href: '/states', label: 'States' },
   { href: '/compare', label: 'Compare' },
   { href: '/articles', label: 'Articles' },
   { href: '/downloads', label: 'Downloads' },

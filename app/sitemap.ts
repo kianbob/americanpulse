@@ -9,6 +9,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const regions: Record<string, unknown> = JSON.parse(regionRaw);
   const regionSlugs = Object.keys(regions).map((n) => n.toLowerCase().replace(/\s+/g, '-'));
 
+  const statesRaw = fs.readFileSync(path.join(process.cwd(), 'public/data/states-data.json'), 'utf-8');
+  const statesData: { states: Record<string, unknown> } = JSON.parse(statesRaw);
+  const stateSlugs = Object.keys(statesData.states);
+
   const articleSlugs = [
     'ai-adoption-census-2026',
     'food-insecurity-map-2026',
@@ -45,5 +49,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...regionPages, ...articlePages];
+  const statePages = stateSlugs.map((slug) => ({
+    url: `${base}/states/${slug}`,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...regionPages, ...statePages, ...articlePages];
 }
