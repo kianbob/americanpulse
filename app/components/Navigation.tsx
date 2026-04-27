@@ -16,8 +16,13 @@ const links = [
   { href: '/regions', label: 'Regions' },
   { href: '/states', label: 'States' },
   { href: '/compare', label: 'Compare' },
+  { href: '/wellbeing', label: 'Wellbeing' },
+  { href: '/squeeze', label: 'Squeeze' },
+  { href: '/metro-rural', label: 'Metro/Rural' },
+  { href: '/trends', label: 'Trends' },
   { href: '/articles', label: 'Articles' },
   { href: '/downloads', label: 'Downloads' },
+  { href: '/methodology', label: 'Methods' },
   { href: '/about', label: 'About' },
 ];
 

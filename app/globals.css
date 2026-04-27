@@ -32,6 +32,7 @@ body {
 @media print {
   body {
     background: white;
+    font-size: 14px;
   }
   nav, footer {
     display: none !important;
@@ -41,5 +42,33 @@ body {
   }
   section {
     break-inside: avoid;
+  }
+  h1, h2, h3 {
+    break-after: avoid;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+    page-break-before: auto;
+  }
+  .bg-white, .bg-gray-50 {
+    background: white !important;
+    box-shadow: none !important;
+  }
+  .rounded-xl {
+    border-radius: 0 !important;
+  }
+  .shadow-md, .shadow-lg, .shadow {
+    box-shadow: none !important;
+  }
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+  .h-3 {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
   }
 }

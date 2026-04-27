@@ -136,6 +136,16 @@ export default function AIPage() {
         name: 'Does income affect AI usage?',
         acceptedAnswer: { '@type': 'Answer', text: `Higher-income Americans are more likely to use AI. Those earning $100K-$150K have a ${data.byIncome['$100K-$150K']?.usedAI ?? 0}% usage rate, while those under $25K have an ${data.byIncome['Under $25K']?.usedAI ?? 0}% rate.` },
       },
+      {
+        '@type': 'Question',
+        name: 'How does Census AI data compare to other surveys?',
+        acceptedAnswer: { '@type': 'Answer', text: `The Census HTOPS survey finds 24% personal AI usage, while Gallup reports 50% workplace AI usage (Jan 2026) and Pew Research found 26% have used ChatGPT specifically. The gap suggests many Americans use AI at work without considering it 'personal use,' and different survey methodologies capture different aspects of AI adoption.` },
+      },
+      {
+        '@type': 'Question',
+        name: 'What is the AI divide?',
+        acceptedAnswer: { '@type': 'Answer', text: 'The AI divide refers to the gap in AI adoption across income, education, and geographic lines. Census data shows that higher-income, college-educated, and metro-area Americans are more likely to use AI tools, raising concerns about a new form of digital inequality.' },
+      },
     ],
   };
 
@@ -233,6 +243,66 @@ export default function AIPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Regional AI Adoption Rankings</h2>
           <p className="text-sm text-gray-500 mb-6">AI usage rates across 9 Census divisions</p>
           <BarChart items={regionItems} maxValue={40} color="#2563eb" />
+        </section>
+
+        {/* The Full Picture */}
+        <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">The Full Picture: Americans and AI in 2026</h2>
+          <p className="text-gray-600 mb-6">
+            Census HTOPS is one of several major surveys tracking AI adoption. Here&apos;s how the data compares:
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4 mb-6">
+            <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
+              <div className="text-2xl font-bold text-blue-700 mb-1">24%</div>
+              <div className="text-sm font-medium text-gray-900">Census HTOPS</div>
+              <div className="text-xs text-gray-500">Personal AI use in past 2 months</div>
+            </div>
+            <div className="p-4 bg-purple-50 rounded-lg border border-purple-200">
+              <div className="text-2xl font-bold text-purple-700 mb-1">26%</div>
+              <div className="text-sm font-medium text-gray-900">Pew Research</div>
+              <div className="text-xs text-gray-500">Used ChatGPT to learn something new</div>
+            </div>
+            <div className="p-4 bg-green-50 rounded-lg border border-green-200">
+              <div className="text-2xl font-bold text-green-700 mb-1">50%</div>
+              <div className="text-sm font-medium text-gray-900">Gallup (Jan 2026)</div>
+              <div className="text-xs text-gray-500">US workers using AI tools at work</div>
+            </div>
+            <div className="p-4 bg-amber-50 rounded-lg border border-amber-200">
+              <div className="text-2xl font-bold text-amber-700 mb-1">12%</div>
+              <div className="text-sm font-medium text-gray-900">Gallup Daily Users</div>
+              <div className="text-xs text-gray-500">US workers using AI tools daily</div>
+            </div>
+          </div>
+          <div className="p-4 bg-indigo-50 rounded-lg border border-indigo-200">
+            <h3 className="font-semibold text-indigo-900 mb-2">How Census Data Compares</h3>
+            <p className="text-sm text-indigo-800">
+              Workplace AI usage (50%) far exceeds personal use (24%), suggesting many people use AI at work
+              without considering it &ldquo;personal use.&rdquo; The Census HTOPS survey specifically asks about
+              personal AI tool usage, which captures a narrower but important slice of the AI adoption story.
+              Different surveys with different question framing produce complementary &mdash; not contradictory &mdash; results.
+            </p>
+          </div>
+        </section>
+
+        {/* Explore Further */}
+        <section>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Go Deeper</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <Link href="/ai/divide" className="block bg-white rounded-xl border border-gray-200 p-6 hover:border-purple-300 hover:shadow-sm transition-all">
+              <div className="text-lg font-bold text-gray-900 mb-2">The AI Divide</div>
+              <p className="text-sm text-gray-500">
+                How do income, education, and geography shape who uses AI? Explore the gaps in AI adoption across demographics.
+              </p>
+              <span className="text-[--primary] text-sm font-medium mt-3 inline-block">Explore the divide &rarr;</span>
+            </Link>
+            <Link href="/trends" className="block bg-white rounded-xl border border-gray-200 p-6 hover:border-indigo-300 hover:shadow-sm transition-all">
+              <div className="text-lg font-bold text-gray-900 mb-2">Trend Tracker</div>
+              <p className="text-sm text-gray-500">
+                Track how AI adoption and other key metrics change over time as new Census waves are released.
+              </p>
+              <span className="text-[--primary] text-sm font-medium mt-3 inline-block">View trends &rarr;</span>
+            </Link>
+          </div>
         </section>
 
         {/* Cross-links */}

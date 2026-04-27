@@ -22,6 +22,10 @@ const topics = [
   { href: '/health', label: 'Health Insurance', desc: 'Coverage types and uninsured rates', color: '#7c3aed' },
   { href: '/spending', label: 'Spending', desc: 'Expense difficulty and price change impact', color: '#0891b2' },
   { href: '/transportation', label: 'Transportation', desc: 'How Americans get around', color: '#4f46e5' },
+  { href: '/wellbeing', label: 'Wellbeing Index', desc: 'Composite wellbeing scores across all metrics', color: '#10b981' },
+  { href: '/squeeze', label: 'Squeeze Index', desc: 'How financially squeezed is each region?', color: '#ef4444' },
+  { href: '/metro-rural', label: 'Metro vs Rural', desc: 'The urban-rural divide in one survey', color: '#8b5cf6' },
+  { href: '/trends', label: 'Trends', desc: 'How America is changing over time', color: '#f59e0b' },
 ];
 
 export default function Home() {
@@ -56,6 +60,7 @@ export default function Home() {
             </svg>
             Powered by U.S. Census Bureau HTOPS data &middot; Wave 2506
           </div>
+          <p className="text-sm text-gray-500 mt-3">Data updated: March 2026 (Wave 2506)</p>
         </div>
       </section>
 
