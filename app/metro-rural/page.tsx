@@ -4,6 +4,7 @@ import Link from 'next/link';
 import BarChart from '../components/BarChart';
 import StatCard from '../components/StatCard';
 import type { Metadata } from 'next';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'Two Americas: Metro vs Rural — AI Adoption by Geography | American Pulse',
@@ -84,6 +85,7 @@ export default function MetroRuralPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>Metro America and rural America might as well be different countries. Urban residents are more likely to use AI, have health insurance, and be employed — but they&apos;re also more likely to be behind on rent. The tradeoffs are real and the data proves it.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
         {/* Big Split-Screen Stat */}

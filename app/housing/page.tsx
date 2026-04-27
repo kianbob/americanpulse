@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 };
 import BarChart from '../components/BarChart';
 import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
+import KeyInsight from '../components/KeyInsight';
 
 interface HousingStats {
   tenure: { percentages: Record<string, number> };
@@ -47,6 +48,7 @@ export default function HousingPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>Nearly 1 in 10 Americans are behind on rent or mortgage payments right now. With median rent at $1,326 nationally and housing costs consuming 30%+ of income for half of all renters, the housing affordability crisis is the defining economic pressure of 2026.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

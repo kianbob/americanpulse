@@ -3,6 +3,7 @@ import path from 'path';
 import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
 import BarChart from '../components/BarChart';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'American Wellbeing Index — Division-Level Composite Scores',
@@ -126,6 +127,7 @@ export default function WellbeingPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>The American Wellbeing Index combines food security, housing, employment, health insurance, expense difficulty, and AI adoption into a single score. The gap between the highest-scoring region (West North Central, 67.2) and lowest (Middle Atlantic, 40.8) reveals just how different the American experience is depending on where you live.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

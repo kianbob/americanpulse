@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
 import BarChart from '../components/BarChart';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'Income Inequality — How Income Shapes Every Aspect of American Life',
@@ -39,6 +40,7 @@ export default function InequalityPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>The gap between America&apos;s richest and poorest households isn&apos;t just about income — it shows up in every dimension of daily life: food security, housing stability, healthcare access, and now AI adoption. The HTOPS data makes this visible in ways traditional economic indicators miss.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         {/* Gap Stats */}

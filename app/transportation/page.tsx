@@ -4,6 +4,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import BarChart from '../components/BarChart';
 import StatCard from '../components/StatCard';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'Transportation in America — 2026 Census Data',
@@ -64,6 +65,7 @@ export default function TransportationPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>How Americans get around shapes everything from job access to healthcare to food security. In rural areas, lack of transportation is a barrier to employment for 1 in 5 job seekers.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">

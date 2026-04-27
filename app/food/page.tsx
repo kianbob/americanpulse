@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 };
 import BarChart from '../components/BarChart';
 import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
+import KeyInsight from '../components/KeyInsight';
 
 interface FoodStats {
   sufficiency: { percentages: Record<string, number> };
@@ -46,6 +47,7 @@ export default function FoodPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>7% of Americans — roughly 18.3 million adults — don&apos;t have enough to eat. That&apos;s down from 23% during COVID&apos;s peak, but it means the recovery is far from complete. The gap between metro and rural food insecurity tells a story of two Americas.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

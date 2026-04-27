@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import LineChart from '../components/LineChart';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'Historical Trends — How America Has Changed Since 2020',
@@ -68,6 +69,7 @@ export default function HistoryPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>From COVID&apos;s economic shock in 2020 to the AI revolution in 2026, six years of Census pulse data tells the story of American resilience — and fragility. Food insecurity peaked at 23% and fell to 7%. Anxiety went from 40% to normal levels. But new pressures (AI displacement, housing costs, inflation) have replaced old ones.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         {/* Key improvement stats */}

@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
 import BarChart from '../components/BarChart';
 import DataTable from '../components/DataTable';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'The Squeeze Index — How Financially Squeezed Is Your Region?',
@@ -99,6 +100,7 @@ export default function SqueezePage() {
           </p>
         </div>
       </section>
+      <KeyInsight>The Squeeze Index measures how financially pressured each region is — combining rent burden, food insecurity, and expense difficulty into a single A-F grade. It&apos;s the answer to &apos;how hard is it to get by here?&apos;</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

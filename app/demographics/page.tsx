@@ -5,6 +5,7 @@ import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
 import DataTable from '../components/DataTable';
 import BarChart from '../components/BarChart';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'State Demographics — Income, Education, Poverty, Housing by State',
@@ -85,6 +86,7 @@ export default function DemographicsPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>America&apos;s experience differs dramatically by age, race, and education. College graduates are 2× more likely to use AI. Hispanic households report higher food insecurity. Young adults face the worst housing burden. The HTOPS data breaks down every metric by who you are.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

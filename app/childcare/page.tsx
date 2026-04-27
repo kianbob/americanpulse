@@ -3,6 +3,7 @@ import path from 'path';
 import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
 import BarChart from '../components/BarChart';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'The Childcare Crisis — 2026 Census Data',
@@ -50,6 +51,7 @@ export default function ChildcarePage() {
           </p>
         </div>
       </section>
+      <KeyInsight>6.6% of families with children experienced childcare disruptions. But behind that number is a cascade: missed work, lost income, and children without supervised care. The childcare crisis is an economic crisis hiding in plain sight.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

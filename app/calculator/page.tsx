@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import KeyInsight from '../components/KeyInsight';
 
 const stateAverages: Record<string, { name: string; avg: number }> = {
   alabama: { name: 'Alabama', avg: 58 }, alaska: { name: 'Alaska', avg: 62 }, arizona: { name: 'Arizona', avg: 60 },
@@ -171,6 +172,7 @@ export default function CalculatorPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>This isn&apos;t just a quiz — it&apos;s a mirror. See how your household compares to 7,485 Census respondents across income, housing, food security, employment, and AI usage. Your Pulse Score tells you where you stand in America.</KeyInsight>
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8 space-y-6">

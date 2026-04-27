@@ -1,5 +1,6 @@
 import BarChart from '../components/BarChart';
 import type { Metadata } from 'next';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'How Does the US Compare? International Data | American Pulse',
@@ -37,6 +38,7 @@ export default function GlobalPage() {
           trust. Data from OECD, World Bank, and national surveys.
         </p>
       </section>
+      <KeyInsight>The US has the highest AI adoption rate among Western nations at 27% — but also the highest food insecurity (14.3%) and the only major country without universal healthcare. America leads in innovation while lagging in basic security.</KeyInsight>
 
       {/* Comparison Table */}
       <section className="mb-16">

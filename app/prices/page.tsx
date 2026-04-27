@@ -3,6 +3,7 @@ import path from 'path';
 import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
 import BarChart from '../components/BarChart';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'How Price Increases Are Hitting Americans — 2026 Census Data',
@@ -74,6 +75,7 @@ export default function PricesPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>75.3% of Americans say prices increased over the past year, and 27.5% are &apos;very stressed&apos; about it. But the impact isn&apos;t equal: low-income households spend a larger share of income on essentials, making every price increase hit harder.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

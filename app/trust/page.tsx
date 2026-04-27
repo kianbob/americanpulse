@@ -3,6 +3,7 @@ import path from 'path';
 import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
 import BarChart from '../components/BarChart';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'Do Americans Trust Their Institutions? [2026 Census Data]',
@@ -154,6 +155,7 @@ export default function TrustPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>The Census Bureau is the most trusted institution in America at 70.7%. Congress is the least trusted at 17.9%. This isn&apos;t just a polling curiosity — trust in institutions predicts everything from vaccine uptake to tax compliance to democratic participation.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         {/* Stat Cards */}

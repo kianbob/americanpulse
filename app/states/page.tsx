@@ -3,6 +3,7 @@ import path from 'path';
 import Link from 'next/link';
 import StatesTable from '../components/StatesTable';
 import type { Metadata } from 'next';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'All 50 States + DC — Census Pulse Data',
@@ -48,6 +49,7 @@ export default function StatesPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>50 states, 50 different Americas. From food security to AI adoption, the data reveals that where you live determines how you live. Explore how your state compares.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">

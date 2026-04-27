@@ -5,6 +5,7 @@ import BarChart from '../components/BarChart';
 import StatCard from '../components/StatCard';
 import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
 import type { Metadata } from 'next';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'AI Usage in America — 24% Now Use AI Tools | 2026 Census Data',
@@ -172,6 +173,7 @@ export default function AIPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>1 in 4 Americans now use AI — but the adoption gap is stark. Those earning $200K+ are 3× more likely to use AI than those earning under $25K. As AI reshapes the economy, this digital divide could widen inequality faster than any technology since the internet.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
         {/* Quick Stats */}

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 };
 import BarChart from '../components/BarChart';
 import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
+import KeyInsight from '../components/KeyInsight';
 
 interface EmploymentStats {
   anywork: { percentages: Record<string, number> };
@@ -60,6 +61,7 @@ export default function EmploymentPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>56.6% of Americans are currently employed — but what matters more is HOW they work. The rise of remote work, gig employment, and AI-assisted jobs is reshaping the labor market in ways traditional unemployment numbers don&apos;t capture.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

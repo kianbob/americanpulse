@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description: 'How Americans handle expenses and price changes. Explore spending difficulty rates by state, income, and demographics from Census HTOPS data.',
 };
 import BarChart from '../components/BarChart';
+import KeyInsight from '../components/KeyInsight';
 
 interface NationalStats {
   spending: {
@@ -57,6 +58,7 @@ export default function SpendingPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>56.6% of households report difficulty paying usual expenses. 75.3% say prices have increased in the past year, and 27.5% are &apos;very stressed&apos; about it. This is the squeeze: wages haven&apos;t kept pace with the cost of everything.</KeyInsight>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

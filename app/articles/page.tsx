@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { articles } from './data';
 import type { Metadata } from 'next';
+import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
   title: 'Analysis Articles — American Pulse',
@@ -47,6 +48,7 @@ export default function ArticlesPage() {
           </p>
         </div>
       </section>
+      <KeyInsight>Data-driven analysis from the largest Census household survey ever conducted. Every article is backed by real numbers from the HTOPS microdata — not opinions, not projections, not AI-generated filler.</KeyInsight>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-6">
         {sortedArticles.map((article) => {
