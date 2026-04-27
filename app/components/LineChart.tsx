@@ -48,7 +48,7 @@ export default function LineChart({ series, annotations = [], height = 400, ySuf
   for (let x = xMin; x <= xMax; x++) xLabels.push(x);
 
   return (
-    <svg viewBox={`0 0 ${width} ${height}`} className="w-full h-auto" role="img">
+    <svg viewBox={`0 0 ${width} ${height}`} className="w-full h-auto" role="img" aria-label={`Line chart showing ${series.map(s => s.name).join(', ')} over time`}>
       {/* Grid lines + Y labels */}
       {Array.from({ length: yTicks + 1 }, (_, i) => {
         const val = i * yStep;

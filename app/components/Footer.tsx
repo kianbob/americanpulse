@@ -48,6 +48,11 @@ export default function Footer() {
               <Link href="/compare" className="text-sm text-gray-400 hover:text-white transition-colors">Compare</Link>
               <Link href="/articles" className="text-sm text-gray-400 hover:text-white transition-colors">Articles</Link>
               <Link href="/downloads" className="text-sm text-gray-400 hover:text-white transition-colors">Downloads</Link>
+              <Link href="/ask" className="text-sm text-gray-400 hover:text-white transition-colors">Ask the Data</Link>
+              <Link href="/lookup" className="text-sm text-gray-400 hover:text-white transition-colors">Zip Lookup</Link>
+              <Link href="/global" className="text-sm text-gray-400 hover:text-white transition-colors">Global</Link>
+              <Link href="/faq" className="text-sm text-gray-400 hover:text-white transition-colors">FAQ</Link>
+              <Link href="/glossary" className="text-sm text-gray-400 hover:text-white transition-colors">Glossary</Link>
             </div>
           </div>
 

@@ -50,6 +50,19 @@ const navItems: NavItem[] = [
       { href: '/embed/ai-usage', label: 'Embeds' },
     ],
   },
+  {
+    href: '#',
+    label: 'More',
+    children: [
+      { href: '/ask', label: 'Ask the Data' },
+      { href: '/lookup', label: 'Zip Lookup' },
+      { href: '/infographic', label: 'Infographic' },
+      { href: '/stories', label: 'Stories' },
+      { href: '/global', label: 'Global' },
+      { href: '/faq', label: 'FAQ' },
+      { href: '/glossary', label: 'Glossary' },
+    ],
+  },
   { href: '/about', label: 'About' },
 ];
 

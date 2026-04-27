@@ -74,6 +74,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/do-americans-trust-congress`, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${base}/do-americans-trust-police`, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${base}/childcare-crisis-2026`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/ask`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${base}/lookup`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/infographic`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/stories`, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${base}/global`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${base}/faq`, changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${base}/glossary`, changeFrequency: 'monthly' as const, priority: 0.6 },
   ];
 
   const regionPages = regionSlugs.map((slug) => ({
@@ -106,5 +113,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...regionPages, ...statePages, ...articlePages, ...costOfLivingPages, ...affordabilityPages];
+  const howIsPages = stateSlugs.map((slug) => ({
+    url: `${base}/how-is/${slug}`,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...regionPages, ...statePages, ...articlePages, ...costOfLivingPages, ...affordabilityPages, ...howIsPages];
 }

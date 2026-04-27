@@ -14,7 +14,7 @@ export default function BarChart({ items, maxValue, color = '#2563eb' }: BarChar
   const max = maxValue ?? Math.max(...items.map((i) => i.value));
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3" role="img" aria-label={`Bar chart showing ${items.map(i => `${i.label}: ${i.displayValue ?? i.value + '%'}`).join(', ')}`}>
       {items.map((item) => (
         <div key={item.label}>
           <div className="flex justify-between text-sm mb-1">
