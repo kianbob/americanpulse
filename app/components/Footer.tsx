@@ -4,12 +4,9 @@ const sisterSites = [
   { name: 'TheDataProject.ai', href: 'https://thedataproject.ai' },
   { name: 'theailobby.com', href: 'https://theailobby.com' },
   { name: 'aiexposure.org', href: 'https://aiexposure.org' },
-  { name: 'nationalhealthratings.com', href: 'https://nationalhealthratings.com' },
-  { name: 'drivedata.org', href: 'https://drivedata.org' },
-  { name: 'foodinsider.org', href: 'https://foodinsider.org' },
-  { name: 'ppploanlookup.com', href: 'https://ppploanlookup.com' },
-  { name: 'governmentsalaries.org', href: 'https://governmentsalaries.org' },
-  { name: 'election-money.thedataproject.ai', href: 'https://election-money.thedataproject.ai' },
+  { name: 'shelterscope.com', href: 'https://shelterscope.com' },
+  { name: 'openfeds.org', href: 'https://openfeds.org' },
+  { name: 'clearprices.org', href: 'https://clearprices.org' },
 ];
 
 export default function Footer() {

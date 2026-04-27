@@ -67,7 +67,6 @@ export default function Home() {
     { value: `${h.housingBurden.rentBehindPct}%`, label: 'Behind on Rent', color: '#dc2626' },
     { value: `${h.uninsuredPct}%`, label: 'Uninsured', color: '#7c3aed' },
     { value: `${h.employedPct}%`, label: 'Employed', color: '#059669' },
-    { value: `${h.expenseDifficultyPct}%`, label: 'Expense Difficulty', color: '#0891b2' },
     { value: '17.9%', label: 'Trust Congress', color: '#ef4444' },
   ];
 
@@ -105,15 +104,18 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
             <a
               href="#explore"
-              className="inline-flex items-center px-6 py-3 bg-[--primary] text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[--primary] text-white rounded-xl font-semibold text-lg shadow-lg shadow-blue-500/25 hover:bg-blue-700 hover:shadow-xl hover:shadow-blue-500/30 hover:-translate-y-0.5 transition-all"
             >
-              Explore the data
+              Explore the Data
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
             </a>
             <Link
               href="/calculator"
-              className="inline-flex items-center px-6 py-3 border-2 border-[--primary] text-[--primary] rounded-lg font-medium hover:bg-[--primary-light] transition-colors"
+              className="inline-flex items-center gap-2 px-8 py-4 border-2 border-[--primary] text-[--primary] rounded-xl font-semibold text-lg hover:bg-[--primary] hover:text-white hover:-translate-y-0.5 transition-all"
             >
-              Take the quiz
+              🧪 Take the Quiz
             </Link>
           </div>
           <div className="inline-flex items-center gap-2 bg-[--primary-light] text-[--primary] px-4 py-2 rounded-full text-sm font-medium">
@@ -159,6 +161,7 @@ export default function Home() {
             <StatCard key={s.label} value={s.value} label={s.label} color={s.color} />
           ))}
         </div>
+        <p className="text-xs text-gray-400 text-center mt-3">Source: U.S. Census Bureau HTOPS Wave 2506 · March 2026</p>
       </section>
 
       {/* Topic Cards */}
