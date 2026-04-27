@@ -24,6 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'covid-recovery-six-years',
     'zip-code-determines-wellbeing',
     'uninsured-2026',
+    'trust-rankings-congress-last',
+    'childcare-desert-income',
+    'price-shock-2026',
+    'state-wellbeing-rankings-2026',
+    'ai-generation-gap-2026',
+    'food-crisis-census-2026',
   ];
 
   const staticPages = [
@@ -62,6 +68,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/embed/ai-usage`, changeFrequency: 'monthly' as const, priority: 0.4 },
     { url: `${base}/embed/food-map`, changeFrequency: 'monthly' as const, priority: 0.4 },
     { url: `${base}/embed/wellbeing`, changeFrequency: 'monthly' as const, priority: 0.4 },
+    { url: `${base}/trust`, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${base}/prices`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/childcare`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/do-americans-trust-congress`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/do-americans-trust-police`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/childcare-crisis-2026`, changeFrequency: 'monthly' as const, priority: 0.7 },
   ];
 
   const regionPages = regionSlugs.map((slug) => ({

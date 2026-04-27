@@ -1,0 +1,117 @@
+{
+  "overall": {
+    "percentages": {
+      "1": 6.6,
+      "2": 55.9,
+      "3": 37.5
+    },
+    "totalWeight": 96293351,
+    "n": 3
+  },
+  "labels": {
+    "1": "Yes",
+    "2": "No",
+    "3": "Not applicable"
+  },
+  "barriers": {
+    "Took unpaid leave": 18.9,
+    "Used vacation/sick/paid leave": 18.8,
+    "Cut work hours": 25.9,
+    "Left a job": 18.6,
+    "Lost a job": 12.7,
+    "Did not look for a job": 21.2,
+    "Supervised children while working": 25.5,
+    "Other": 7.6,
+    "None of the above": 11.1
+  },
+  "byIncome": {
+    "Under $25K": {
+      "percentages": {
+        "1": 10.4,
+        "2": 58.1,
+        "3": 31.5
+      },
+      "totalWeight": 20211469,
+      "n": 3
+    },
+    "$25K-$35K": {
+      "percentages": {
+        "1": 6,
+        "2": 53.9,
+        "3": 40.1
+      },
+      "totalWeight": 6750046,
+      "n": 3
+    },
+    "$35K-$50K": {
+      "percentages": {
+        "1": 6.8,
+        "2": 62,
+        "3": 31.2
+      },
+      "totalWeight": 8903881,
+      "n": 3
+    },
+    "$50K-$75K": {
+      "percentages": {
+        "1": 3.8,
+        "2": 51.2,
+        "3": 45
+      },
+      "totalWeight": 13600092,
+      "n": 3
+    },
+    "$75K-$100K": {
+      "percentages": {
+        "1": 6,
+        "2": 56.7,
+        "3": 37.2
+      },
+      "totalWeight": 10108458,
+      "n": 3
+    },
+    "$100K-$150K": {
+      "percentages": {
+        "1": 7.6,
+        "2": 51.4,
+        "3": 41
+      },
+      "totalWeight": 14679585,
+      "n": 3
+    },
+    "$150K+": {
+      "percentages": {
+        "1": 4.8,
+        "2": 63.7,
+        "3": 31.4
+      },
+      "totalWeight": 18837154,
+      "n": 3
+    }
+  },
+  "byMetro": {
+    "Non-metro": {
+      "percentages": {
+        "1": 5.5,
+        "2": 57.8,
+        "3": 36.7
+      },
+      "totalWeight": 47151511,
+      "n": 3
+    },
+    "Metro": {
+      "percentages": {
+        "1": 7.8,
+        "2": 54,
+        "3": 38.2
+      },
+      "totalWeight": 49141840,
+      "n": 3
+    }
+  },
+  "headlines": {
+    "needChildcarePct": 6.6,
+    "totalHouseholdsWithKids": 2444,
+    "childcareIssueCount": 161
+  }
+}

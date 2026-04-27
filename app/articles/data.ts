@@ -623,4 +623,197 @@ The 2026 HTOPS data serves as a reminder: America's uninsured problem is smaller
 
 *Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
   },
+  {
+    slug: 'trust-rankings-congress-last',
+    title: 'Who Does America Trust? Congress Ranks Last',
+    description: 'Census Bureau #1 at 70.7%, Military #2 at 65.1%, Congress dead last at 17.9%. Trust rankings from the 2026 Census HTOPS survey.',
+    date: '2026-04-27',
+    topic: 'Trust',
+    content: `The 2026 Census Bureau's Household Trends and Outlook Pulse Survey (HTOPS) asked Americans how much confidence they have in nine major institutions. The results reveal a nation that trusts its data collectors far more than its lawmakers.
+
+## The Rankings
+
+The **U.S. Census Bureau** tops the list at **70.7%** — meaning more than seven in ten Americans have "a great deal" or "quite a lot" of confidence in the agency. The **Military** follows at **65.1%**, and **U.S. Statistical Agencies** broadly come in at **62.3%**.
+
+At the bottom? **Congress, at just 17.9%.** Fewer than one in five Americans have high confidence in the legislative branch. A staggering 41.7% say they have "very little" confidence — the highest disapproval of any institution measured.
+
+The full ranking:
+1. U.S. Census Bureau — 70.7%
+2. The Military — 65.1%
+3. U.S. Statistical Agencies — 62.3%
+4. The Police — 53.4%
+5. Public Schools — 46.8%
+6. U.S. Supreme Court — 34.5%
+7. Criminal Justice System — 31.8%
+8. The Presidency — 27.5%
+9. Congress — 17.9%
+
+## The Age Factor
+
+Do younger Americans trust institutions less? The data says: it depends on the institution.
+
+For the **Census Bureau**, trust increases with age but stays high across the board: 61.7% for ages 18-29, rising to 77.9% for those 75+. The pattern is similar for the **Military** — younger adults are less trusting (52.5% for 18-29) but the gap isn't as dramatic as you might expect.
+
+For **the Police**, the age gap is enormous. Only **33.6%** of Americans aged 18-29 have high confidence in police, compared to **73.9%** of those 75 and older. That's a 40-point spread — the largest age gap of any institution.
+
+**Congress** is universally distrusted regardless of age. The range runs from 15.1% (75+) to 19.9% (45-59) — nobody likes Congress, young or old.
+
+## The Income Divide
+
+Does money buy trust? For most institutions, higher income correlates with slightly higher trust. Census Bureau trust ranges from 65.9% (under $25K) to 79.1% ($150K+). Military trust shows a similar but smaller gradient.
+
+But **Congress breaks the pattern entirely.** Americans earning under $25K actually show the **highest** Congressional trust at 29.8% — nearly double the rate of those earning $100K-$150K (13.7%). One interpretation: lower-income Americans may look to government for more direct assistance and thus maintain relatively more faith in the institution. Higher-income Americans, who interact more with the tax code and regulatory apparatus, may be more cynical.
+
+## The Education Pattern
+
+Education amplifies trust in data-producing institutions. Trust in the Census Bureau jumps from 57.6% among those with less than a high school education to 86.1% for graduate degree holders. Trust in federal statistics follows the same curve: 57.1% for the lowest education bracket to 86.1% for the highest.
+
+For Congress, education barely moves the needle. No education bracket exceeds 20% high trust.
+
+## The Meta Finding
+
+Here's the most interesting takeaway: **Americans trust the Census Bureau that produces this data more than almost any other institution.** The agency that surveys the public about institutional trust is itself the most trusted institution. That's either deeply reassuring about data quality — or a fascinating paradox about who we choose to believe.
+
+The 70.7% trust in the Census Bureau also lends credibility to the survey itself. When seven in ten respondents trust the messenger, the message carries more weight.
+
+Meanwhile, Congress sits at 17.9% and falling. In a democracy, the institution designed to represent the people is the one the people trust least. That gap between the Census Bureau (data) and Congress (power) may be the most telling number in the entire survey.
+
+*Explore the full trust rankings with demographic breakdowns on our [Trust page](/trust). See who lobbies Congress at [theailobby.com](https://theailobby.com).*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+  },
+  {
+    slug: 'childcare-desert-income',
+    title: 'The Childcare Desert: How Income Determines Access',
+    description: '6.6% of families with kids had childcare disruptions. 25.9% cut work hours, 25.5% supervised kids while working. The hidden economic cost.',
+    date: '2026-04-27',
+    topic: 'Economy',
+    content: `When childcare falls apart, so does everything else. The 2026 Census HTOPS survey reveals that **6.6% of families with children** experienced childcare disruptions in the past four weeks — and the consequences cascade through household economics in ways that rarely make headlines.
+
+## The Disruption Rate
+
+Of 2,444 households with children surveyed, 161 reported childcare problems. Weighted to the population, 6.6% said yes, 55.9% said no, and 37.5% said the question wasn't applicable (no regular childcare arrangement). That 6.6% may sound small, but it represents millions of families making impossible tradeoffs every month.
+
+## What Happens When Childcare Fails
+
+The survey asked affected families what happened as a result. The answers paint a picture of economic disruption:
+
+- **25.9% cut their work hours** — directly reducing household income
+- **25.5% supervised children while working** — the "laptop on the kitchen table" scenario that kills productivity
+- **21.2% did not look for a job** — sidelining potential earners entirely
+- **18.9% took unpaid leave** — losing income with no safety net
+- **18.8% used vacation or sick leave** — burning limited PTO on childcare emergencies
+- **18.6% left a job** — the most drastic outcome, with long-term career consequences
+- **12.7% lost a job** — fired or let go because childcare issues made work impossible
+
+These aren't mutually exclusive. Many families experienced multiple consequences simultaneously — cutting hours AND supervising children while working, or taking unpaid leave before ultimately leaving a job.
+
+## The Income Divide
+
+Childcare disruptions don't hit everyone equally. The income breakdown reveals a clear gradient:
+
+- **Under $25K: 10.4%** disruption rate — the highest by far
+- **$25K-$35K: 6.0%**
+- **$35K-$50K: 6.8%**
+- **$50K-$75K: 3.8%** — the lowest rate
+- **$75K-$100K: 6.0%**
+- **$100K-$150K: 7.6%** — a surprising bump
+- **$150K+: 4.8%**
+
+The pattern isn't a simple "more money, fewer problems." The lowest-income families face the highest disruption rates — 10.4% vs. 3.8% for the $50K-$75K bracket. That's nearly three times the risk. These families have the fewest backup options: no nanny, no flexible work arrangement, no grandparent nearby who doesn't also work.
+
+But the $100K-$150K bump is intriguing. These dual-income professional families may rely heavily on formal childcare arrangements (daycare centers, after-school programs) that have their own fragility — closures, staffing shortages, waitlists. When institutional childcare fails, families accustomed to it may be less equipped with informal alternatives.
+
+## The Hidden Economic Cost
+
+Consider the math. If 6.6% of families with children experience disruptions, and roughly a quarter of those families cut work hours or left jobs, the aggregate economic impact is enormous. Lost wages. Reduced productivity. Career setbacks that compound over years — the parent who leaves for six months returns at a lower salary, misses a promotion cycle, and never quite catches up.
+
+The 12.7% job loss rate among affected families is particularly stark. Losing a job doesn't just mean lost income today — it means gaps on resumes, lost employer-sponsored health insurance, depleted savings, and increased risk of cascading financial problems.
+
+## Metro vs. Rural
+
+Metro areas report a 7.8% childcare disruption rate compared to 5.5% in non-metro areas. Higher costs, longer commutes, and less family proximity in cities may reduce childcare resilience. Rural families, while facing fewer formal options, may benefit from stronger informal support networks.
+
+## The Policy Gap
+
+The childcare crisis isn't new, but the HTOPS data quantifies its ongoing impact with unusual precision. The question isn't whether childcare disruptions matter — the data proves they cause job loss, income reduction, and workforce exit. The question is whether the cost of childcare support is higher or lower than the economic damage caused by its absence.
+
+At 6.6% of families affected in any given month, the annual exposure is likely much higher. This isn't a niche issue — it's a structural economic drag hiding in plain sight.
+
+*Explore the full childcare data on our [Childcare page](/childcare). See how expenses affect families on our [Spending page](/spending).*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+  },
+  {
+    slug: 'price-shock-2026',
+    title: 'Price Shock: How Inflation Is Still Squeezing Households in 2026',
+    description: '75.3% say prices increased. 27.5% found it very stressful. 47.4% very concerned about future prices. Income breakdown from Census HTOPS 2026.',
+    date: '2026-04-27',
+    topic: 'Economy',
+    content: `The inflation headlines may have faded, but the price shock hasn't. The 2026 Census HTOPS survey finds that **75.3% of Americans say prices have increased** over the past 12 months. Among those who saw increases, **27.5% describe the impact as "very stressful."** And looking ahead, **47.4% are "very concerned"** about future price changes.
+
+These aren't pandemic-era numbers. This is 2026 — years after the Fed declared inflation under control. The data tells a different story at the kitchen table.
+
+## The Price Perception Gap
+
+The survey asked: "Over the past 12 months, would you say that the prices of the goods and services you usually buy have increased, stayed the same, decreased, or are you not sure?"
+
+- **75.3%** — Prices increased
+- **16.5%** — Prices stayed the same
+- **2.9%** — Prices decreased
+- **5.3%** — Not sure
+
+Three-quarters of Americans perceive ongoing price increases. Only 2.9% think prices went down. Even if official CPI inflation has moderated, the **cumulative effect of years of elevated prices** means Americans are paying significantly more for groceries, rent, gas, and insurance than they were in 2020. The price level didn't go back down — it just stopped rising as fast.
+
+## The Stress Factor
+
+Among the 75.3% who saw prices increase, the stress breakdown reveals real pain:
+
+- **27.5%** — Very stressful
+- **31.4%** — Moderately stressful
+- **33.0%** — A little stressful
+- **8.1%** — Not at all stressful
+
+Nearly 60% find price increases at least moderately stressful. Only 8.1% shrug it off entirely. The "very stressful" group — more than one in four — represents roughly 54 million Americans who are genuinely struggling with the cost of their daily lives.
+
+## Income Makes All the Difference
+
+The income breakdown on price stress is the most telling data in the survey:
+
+**"Very stressful" rate by income:**
+- Under $25K: **43.7%**
+- $25K-$35K: **40.6%**
+- $35K-$50K: **34.0%**
+- $50K-$75K: **29.6%**
+- $75K-$100K: **22.6%**
+- $100K-$150K: **16.3%**
+- $150K+: **11.9%**
+
+The gradient is nearly linear and devastating. Americans earning under $25K are almost **four times as likely** to find price increases very stressful compared to those earning $150K+. This isn't surprising — but the magnitude matters. At 43.7%, nearly half of the lowest-income Americans are under severe financial stress from prices alone.
+
+## Future Concern
+
+Beyond current stress, Americans are worried about what's coming:
+
+- **47.4%** — Very concerned about future prices
+- **28.3%** — Somewhat concerned
+- **18.3%** — A little concerned
+- **6.0%** — Not at all concerned
+
+Nearly half the country is very concerned about future price changes. By income, the pattern repeats: 59.5% of those under $25K are very concerned, compared to 35.4% of those earning $150K+.
+
+Age also matters. Younger Americans (18-29: 52.0%, 30-44: 51.9%) are more concerned than older Americans (75+: 34.3%), likely reflecting that younger households have less savings buffer and are earlier in their earning trajectory.
+
+## The Disconnect
+
+There's a growing gap between macroeconomic indicators and lived experience. GDP grows. Unemployment stays low. The stock market hits highs. But 75.3% of Americans say prices are still going up, 27.5% find it very stressful, and 47.4% are very worried about the future.
+
+This disconnect has political implications. When economists say inflation is "under control" but three-quarters of voters say prices are rising and nearly half are very worried, the economic conversation is happening in two different languages.
+
+The HTOPS data suggests the price shock of 2021-2023 hasn't been absorbed — it's been **incorporated** into a permanently higher cost of living that continues to squeeze household budgets, especially for those who can least afford it.
+
+*Explore price and spending data on our [Prices page](/prices) and [Spending page](/spending). See food impact at [Food Security](/food).*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+  },
 ];

@@ -40,6 +40,7 @@ const topics = [
   { href: '/squeeze', label: 'Squeeze Index', desc: 'How financially squeezed is each region?', color: '#ef4444' },
   { href: '/metro-rural', label: 'Metro vs Rural', desc: 'The urban-rural divide in one survey', color: '#8b5cf6' },
   { href: '/trends', label: 'Trends', desc: 'How America is changing over time', color: '#f59e0b' },
+  { href: '/trust', label: 'Trust', desc: 'Do Americans trust their institutions?', color: '#ef4444' },
 ];
 
 const tickerItems = [
@@ -48,6 +49,8 @@ const tickerItems = [
   '56% struggle with expenses',
   '8.9% behind on rent',
   '7.5% uninsured',
+  '71% trust Census Bureau',
+  'Only 18% trust Congress',
 ];
 
 export default function Home() {
@@ -65,6 +68,7 @@ export default function Home() {
     { value: `${h.uninsuredPct}%`, label: 'Uninsured', color: '#7c3aed' },
     { value: `${h.employedPct}%`, label: 'Employed', color: '#059669' },
     { value: `${h.expenseDifficultyPct}%`, label: 'Expense Difficulty', color: '#0891b2' },
+    { value: '17.9%', label: 'Trust Congress', color: '#ef4444' },
   ];
 
   // Latest 3 articles sorted by date desc

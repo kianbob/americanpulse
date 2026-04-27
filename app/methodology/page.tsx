@@ -556,6 +556,49 @@ export default function MethodologyPage() {
         </section>
 
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Trust, Price Stress, Childcare &amp; Transportation Detail</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Wave 2506 introduced several new topic modules analyzed on American Pulse:
+          </p>
+          <ul className="space-y-3 text-gray-700">
+            <li className="flex gap-3">
+              <span className="text-[--primary] font-bold">&#8226;</span>
+              <span>
+                <strong>Institutional Trust:</strong> TRUST1 measures overall government trust. TRUST2_1 through
+                TRUST2_9 measure confidence in 9 specific institutions (Congress, Supreme Court, President, military,
+                police, media, public schools, banks, medical scientists). Additional variables capture trust in
+                federal statistics. All coded on Likert scales; -99 and -88 excluded as missing.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[--primary] font-bold">&#8226;</span>
+              <span>
+                <strong>Price Stress:</strong> PRICECHNG captures perceived price direction (increased/same/decreased).
+                PRICESTRESS measures stress level among those perceiving increases. PRICECONCRN measures overall
+                concern about rising prices. All weighted by PWEIGHT.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[--primary] font-bold">&#8226;</span>
+              <span>
+                <strong>Childcare:</strong> CHILDCARE asks whether childcare was disrupted in the past 4 weeks
+                (among households with children). CHILDCARE_RSLT1 through CHILDCARE_RSLT9 capture consequences
+                (cut hours, unpaid leave, left job, supervised while working, etc.). -99 and -88 excluded.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[--primary] font-bold">&#8226;</span>
+              <span>
+                <strong>Transportation Detail:</strong> TRANSPORT1 through TRANSPORT12 capture modes used
+                (personal vehicle, bus, rail, rideshare, walk, bike, etc.). ACCESS_TRANSP measures adequacy
+                of available transportation. NEEDS_TRANSP1 through NEEDS_TRANSP7 capture reasons for unmet
+                needs (cost, safety, availability, disability). All use PWEIGHT for weighted estimates.
+              </span>
+            </li>
+          </ul>
+        </section>
+
+        <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Further Reading</h2>
           <ul className="space-y-3 text-gray-700">
             <li className="flex gap-3">

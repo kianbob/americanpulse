@@ -1,0 +1,330 @@
+{
+  "priceChange": {
+    "overall": {
+      "percentages": {
+        "1": 75.3,
+        "2": 16.5,
+        "3": 2.9,
+        "4": 5.3
+      },
+      "totalWeight": 260879699,
+      "n": 4
+    },
+    "labels": {
+      "1": "Prices increased",
+      "2": "Prices stayed same",
+      "3": "Prices decreased",
+      "4": "Don't know"
+    },
+    "byIncome": {
+      "Under $25K": {
+        "percentages": {
+          "1": 82.8,
+          "2": 7.3,
+          "3": 3,
+          "4": 6.8
+        },
+        "totalWeight": 48275144,
+        "n": 4
+      },
+      "$25K-$35K": {
+        "percentages": {
+          "1": 79.3,
+          "2": 11,
+          "3": 3,
+          "4": 6.7
+        },
+        "totalWeight": 17497353,
+        "n": 4
+      },
+      "$35K-$50K": {
+        "percentages": {
+          "1": 74.4,
+          "2": 20,
+          "3": 1.7,
+          "4": 3.9
+        },
+        "totalWeight": 23816949,
+        "n": 4
+      },
+      "$50K-$75K": {
+        "percentages": {
+          "1": 75.3,
+          "2": 17.4,
+          "3": 2.8,
+          "4": 4.5
+        },
+        "totalWeight": 43333433,
+        "n": 4
+      },
+      "$75K-$100K": {
+        "percentages": {
+          "1": 72,
+          "2": 18.5,
+          "3": 3,
+          "4": 6.5
+        },
+        "totalWeight": 33240017,
+        "n": 4
+      },
+      "$100K-$150K": {
+        "percentages": {
+          "1": 74.2,
+          "2": 17.8,
+          "3": 4,
+          "4": 4.1
+        },
+        "totalWeight": 40267746,
+        "n": 4
+      },
+      "$150K+": {
+        "percentages": {
+          "1": 68.9,
+          "2": 23.1,
+          "3": 2.9,
+          "4": 5.1
+        },
+        "totalWeight": 49039862,
+        "n": 4
+      }
+    }
+  },
+  "priceStress": {
+    "overall": {
+      "percentages": {
+        "1": 27.5,
+        "2": 31.4,
+        "3": 33,
+        "4": 8.1
+      },
+      "totalWeight": 195953622,
+      "n": 4
+    },
+    "labels": {
+      "1": "Very stressful",
+      "2": "Moderately stressful",
+      "3": "A little stressful",
+      "4": "Not at all stressful"
+    },
+    "byIncome": {
+      "Under $25K": {
+        "percentages": {
+          "1": 43.7,
+          "2": 26.8,
+          "3": 25.7,
+          "4": 3.8
+        },
+        "totalWeight": 39660322,
+        "n": 4
+      },
+      "$25K-$35K": {
+        "percentages": {
+          "1": 40.6,
+          "2": 26.8,
+          "3": 28.9,
+          "4": 3.7
+        },
+        "totalWeight": 13844761,
+        "n": 4
+      },
+      "$35K-$50K": {
+        "percentages": {
+          "1": 34,
+          "2": 32.9,
+          "3": 28.3,
+          "4": 4.8
+        },
+        "totalWeight": 17723702,
+        "n": 4
+      },
+      "$50K-$75K": {
+        "percentages": {
+          "1": 29.6,
+          "2": 33.9,
+          "3": 29.6,
+          "4": 6.9
+        },
+        "totalWeight": 32594701,
+        "n": 4
+      },
+      "$75K-$100K": {
+        "percentages": {
+          "1": 22.6,
+          "2": 34.5,
+          "3": 35,
+          "4": 7.9
+        },
+        "totalWeight": 23916383,
+        "n": 4
+      },
+      "$100K-$150K": {
+        "percentages": {
+          "1": 16.3,
+          "2": 35.5,
+          "3": 38.4,
+          "4": 9.7
+        },
+        "totalWeight": 29802568,
+        "n": 4
+      },
+      "$150K+": {
+        "percentages": {
+          "1": 11.9,
+          "2": 25.9,
+          "3": 45.5,
+          "4": 16.7
+        },
+        "totalWeight": 33770444,
+        "n": 4
+      }
+    },
+    "note": "Asked only of respondents who perceived price increases (PRICECHNG=1)"
+  },
+  "priceConcern": {
+    "overall": {
+      "percentages": {
+        "1": 47.4,
+        "2": 28.3,
+        "3": 18.3,
+        "4": 6
+      },
+      "totalWeight": 260710159,
+      "n": 4
+    },
+    "labels": {
+      "1": "Very concerned",
+      "2": "Somewhat concerned",
+      "3": "A little concerned",
+      "4": "Not at all concerned"
+    },
+    "byIncome": {
+      "Under $25K": {
+        "percentages": {
+          "1": 59.5,
+          "2": 22.1,
+          "3": 10.8,
+          "4": 7.5
+        },
+        "totalWeight": 48208096,
+        "n": 4
+      },
+      "$25K-$35K": {
+        "percentages": {
+          "1": 58,
+          "2": 19.9,
+          "3": 19.1,
+          "4": 3
+        },
+        "totalWeight": 17612907,
+        "n": 4
+      },
+      "$35K-$50K": {
+        "percentages": {
+          "1": 49.1,
+          "2": 28.2,
+          "3": 18.4,
+          "4": 4.3
+        },
+        "totalWeight": 23739538,
+        "n": 4
+      },
+      "$50K-$75K": {
+        "percentages": {
+          "1": 48.3,
+          "2": 23.2,
+          "3": 22.2,
+          "4": 6.3
+        },
+        "totalWeight": 43192683,
+        "n": 4
+      },
+      "$75K-$100K": {
+        "percentages": {
+          "1": 47.3,
+          "2": 33.2,
+          "3": 15.3,
+          "4": 4.3
+        },
+        "totalWeight": 33185350,
+        "n": 4
+      },
+      "$100K-$150K": {
+        "percentages": {
+          "1": 43.2,
+          "2": 30.4,
+          "3": 20.4,
+          "4": 5.9
+        },
+        "totalWeight": 40310972,
+        "n": 4
+      },
+      "$150K+": {
+        "percentages": {
+          "1": 35.4,
+          "2": 33.5,
+          "3": 23.6,
+          "4": 7.6
+        },
+        "totalWeight": 49047985,
+        "n": 4
+      }
+    },
+    "byAge": {
+      "18-29": {
+        "percentages": {
+          "1": 52,
+          "2": 26.4,
+          "3": 15.9,
+          "4": 5.7
+        },
+        "totalWeight": 50019649,
+        "n": 4
+      },
+      "30-44": {
+        "percentages": {
+          "1": 51.9,
+          "2": 29.1,
+          "3": 14.3,
+          "4": 4.7
+        },
+        "totalWeight": 68720010,
+        "n": 4
+      },
+      "45-59": {
+        "percentages": {
+          "1": 45.3,
+          "2": 28.1,
+          "3": 19.4,
+          "4": 7.2
+        },
+        "totalWeight": 58374485,
+        "n": 4
+      },
+      "60-74": {
+        "percentages": {
+          "1": 44.8,
+          "2": 27,
+          "3": 22.2,
+          "4": 5.9
+        },
+        "totalWeight": 64191260,
+        "n": 4
+      },
+      "75+": {
+        "percentages": {
+          "1": 34.3,
+          "2": 35.3,
+          "3": 22.8,
+          "4": 7.6
+        },
+        "totalWeight": 19404755,
+        "n": 4
+      }
+    }
+  },
+  "headlines": {
+    "pricesIncreasedPct": 75.3,
+    "veryStressedPct": 27.5,
+    "veryConcernedPct": 47.4
+  }
+}

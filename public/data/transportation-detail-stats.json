@@ -1,0 +1,228 @@
+{
+  "modes": {
+    "Walk": {
+      "pct": 64.7,
+      "byMetro": {
+        "Metro": 67.7,
+        "Non-metro": 61.5
+      }
+    },
+    "Bike/e-scooter": {
+      "pct": 25.1,
+      "byMetro": {
+        "Metro": 27.1,
+        "Non-metro": 22.9
+      }
+    },
+    "Motorcycle/moped": {
+      "pct": 3.6,
+      "byMetro": {
+        "Metro": 3.7,
+        "Non-metro": 3.4
+      }
+    },
+    "Personal vehicle": {
+      "pct": 85.2,
+      "byMetro": {
+        "Metro": 81.3,
+        "Non-metro": 89.5
+      }
+    },
+    "Borrowed vehicle": {
+      "pct": 14.8,
+      "byMetro": {
+        "Metro": 15.5,
+        "Non-metro": 14
+      }
+    },
+    "Rental/carshare": {
+      "pct": 12,
+      "byMetro": {
+        "Metro": 11.8,
+        "Non-metro": 12.3
+      }
+    },
+    "Taxi/rideshare": {
+      "pct": 29.8,
+      "byMetro": {
+        "Metro": 32.9,
+        "Non-metro": 26.5
+      }
+    },
+    "Bus": {
+      "pct": 31.2,
+      "byMetro": {
+        "Metro": 35.6,
+        "Non-metro": 26.5
+      }
+    },
+    "Rail transit": {
+      "pct": 15,
+      "byMetro": {
+        "Metro": 20.4,
+        "Non-metro": 9.3
+      }
+    },
+    "Ferryboat": {
+      "pct": 2.5,
+      "byMetro": {
+        "Metro": 2.6,
+        "Non-metro": 2.4
+      }
+    },
+    "Paratransit": {
+      "pct": 1.6,
+      "byMetro": {
+        "Metro": 1.6,
+        "Non-metro": 1.7
+      }
+    },
+    "Other": {
+      "pct": 1.8,
+      "byMetro": {
+        "Metro": 1.4,
+        "Non-metro": 2.2
+      }
+    }
+  },
+  "access": {
+    "overall": {
+      "percentages": {
+        "1": 84.7,
+        "2": 9.1,
+        "3": 3,
+        "4": 1.9,
+        "5": 1.4
+      },
+      "totalWeight": 258895993,
+      "n": 5
+    },
+    "labels": {
+      "1": "Enough to meet needs",
+      "2": "Enough, but not preferred kinds",
+      "3": "Sometimes not enough",
+      "4": "Often not enough",
+      "5": "Always not enough"
+    },
+    "byIncome": {
+      "Under $25K": {
+        "percentages": {
+          "1": 64.5,
+          "2": 13.5,
+          "3": 9.5,
+          "4": 7.7,
+          "5": 4.8
+        },
+        "totalWeight": 46944243,
+        "n": 5
+      },
+      "$25K-$35K": {
+        "percentages": {
+          "1": 81.9,
+          "2": 14.4,
+          "3": 3,
+          "4": 0.1,
+          "5": 0.6
+        },
+        "totalWeight": 17217582,
+        "n": 5
+      },
+      "$35K-$50K": {
+        "percentages": {
+          "1": 84.5,
+          "2": 10.1,
+          "3": 2.6,
+          "4": 2.6,
+          "5": 0.2
+        },
+        "totalWeight": 23609202,
+        "n": 5
+      },
+      "$50K-$75K": {
+        "percentages": {
+          "1": 90.2,
+          "2": 6.1,
+          "3": 1.7,
+          "4": 0.5,
+          "5": 1.4
+        },
+        "totalWeight": 43176392,
+        "n": 5
+      },
+      "$75K-$100K": {
+        "percentages": {
+          "1": 92.8,
+          "2": 5.7,
+          "3": 0.9,
+          "4": 0.6
+        },
+        "totalWeight": 33226661,
+        "n": 4
+      },
+      "$100K-$150K": {
+        "percentages": {
+          "1": 91.9,
+          "2": 5.8,
+          "3": 0.7,
+          "4": 0.2,
+          "5": 1.2
+        },
+        "totalWeight": 40211204,
+        "n": 5
+      },
+      "$150K+": {
+        "percentages": {
+          "1": 92.7,
+          "2": 6.2,
+          "3": 0.9,
+          "4": 0.1,
+          "5": 0
+        },
+        "totalWeight": 49115578,
+        "n": 5
+      }
+    },
+    "byMetro": {
+      "Non-metro": {
+        "percentages": {
+          "1": 87.7,
+          "2": 8.1,
+          "3": 2.2,
+          "4": 1.2,
+          "5": 0.8
+        },
+        "totalWeight": 124570946,
+        "n": 5
+      },
+      "Metro": {
+        "percentages": {
+          "1": 81.9,
+          "2": 10,
+          "3": 3.7,
+          "4": 2.5,
+          "5": 1.9
+        },
+        "totalWeight": 134325047,
+        "n": 5
+      }
+    }
+  },
+  "unmetNeeds": {
+    "reasons": {
+      "Not available when needed": 33.7,
+      "Too much travel time": 16.6,
+      "Unpredictable": 31.6,
+      "Too expensive": 42.2,
+      "Feels unsafe": 11.7,
+      "Disability limits options": 16.7,
+      "None of the above": 11.2
+    },
+    "totalWithUnmetNeeds": 327,
+    "pctWithUnmetNeeds": 6.3
+  },
+  "headlines": {
+    "personalVehiclePct": 85.2,
+    "enoughTransportPct": 84.7,
+    "unmetNeedsPct": 6.3
+  }
+}

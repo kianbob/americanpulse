@@ -1,8 +1,10 @@
 import fs from 'fs';
 import path from 'path';
+import Link from 'next/link';
 import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
 import DataTable from '../components/DataTable';
+import BarChart from '../components/BarChart';
 
 export const metadata: Metadata = {
   title: 'State Demographics — Income, Education, Poverty, Housing by State',
@@ -113,6 +115,31 @@ export default function DemographicsPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-2">All States</h2>
           <p className="text-sm text-gray-500 mb-6">Click any column header to sort. Income and housing values are in dollars.</p>
           <DataTable columns={columns} rows={rows} />
+        </section>
+
+        <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-2">Childcare Access</h2>
+          <p className="text-sm text-gray-500 mb-6">6.6% of families with children experienced childcare disruptions in the past 4 weeks.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
+            <StatCard value="6.6%" label="Childcare Disruptions" color="#dc2626" />
+            <StatCard value="25.9%" label="Cut Work Hours" color="#d97706" />
+            <StatCard value="25.5%" label="Supervised While Working" color="#7c3aed" />
+          </div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Barriers When Childcare Falls Through</h3>
+          <BarChart items={[
+            { label: 'Cut work hours', value: 25.9 },
+            { label: 'Supervised children while working', value: 25.5 },
+            { label: 'Did not look for a job', value: 21.2 },
+            { label: 'Took unpaid leave', value: 18.9 },
+            { label: 'Used vacation/sick/paid leave', value: 18.8 },
+            { label: 'Left a job', value: 18.6 },
+            { label: 'Lost a job', value: 12.7 },
+          ]} color="#dc2626" />
+          <div className="mt-6 text-center">
+            <Link href="/childcare" className="text-[--primary] hover:underline font-medium">
+              See the full childcare analysis &rarr;
+            </Link>
+          </div>
         </section>
 
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">

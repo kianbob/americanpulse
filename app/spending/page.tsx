@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import Link from 'next/link';
 import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
 
@@ -73,6 +74,29 @@ export default function SpendingPage() {
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-6">Price Change Impact</h2>
           <BarChart items={priceItems} color="#d97706" />
+        </section>
+
+        {/* Price Stress Detail */}
+        <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-2">Price Stress in Detail</h2>
+          <p className="text-sm text-gray-500 mb-6">75.3% of Americans say prices have increased. Among those, 27.5% find it very stressful.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
+            <StatCard value="75.3%" label="Prices Increased" color="#dc2626" />
+            <StatCard value="27.5%" label="Very Stressed" color="#d97706" />
+            <StatCard value="47.4%" label="Very Concerned" color="#7c3aed" />
+          </div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">Price Concern Levels</h3>
+          <BarChart items={[
+            { label: 'Very concerned', value: 47.4 },
+            { label: 'Somewhat concerned', value: 28.3 },
+            { label: 'A little concerned', value: 18.3 },
+            { label: 'Not at all concerned', value: 6.0 },
+          ]} color="#7c3aed" />
+          <div className="mt-6 text-center">
+            <Link href="/prices" className="text-[--primary] hover:underline font-medium">
+              See the full price analysis &rarr;
+            </Link>
+          </div>
         </section>
       </div>
     </div>
