@@ -1,0 +1,152 @@
+{
+  "South Atlantic": {
+    "states": [
+      "DE",
+      "DC",
+      "FL",
+      "GA",
+      "MD",
+      "NC",
+      "SC",
+      "VA",
+      "WV"
+    ],
+    "n": 1762,
+    "aiUsage": 24.2,
+    "foodInsufficient": 7.17,
+    "expenseDifficult": 79.26,
+    "employed": 57.65,
+    "uninsured": 8.48,
+    "rentBehind": 15.11
+  },
+  "West South Central": {
+    "states": [
+      "AR",
+      "LA",
+      "OK",
+      "TX"
+    ],
+    "n": 896,
+    "aiUsage": 22.16,
+    "foodInsufficient": 5.3,
+    "expenseDifficult": 79.21,
+    "employed": 56.93,
+    "uninsured": 16.1,
+    "rentBehind": 2.47
+  },
+  "Pacific": {
+    "states": [
+      "AK",
+      "CA",
+      "HI",
+      "OR",
+      "WA"
+    ],
+    "n": 901,
+    "aiUsage": 25.13,
+    "foodInsufficient": 7.47,
+    "expenseDifficult": 77.51,
+    "employed": 55.31,
+    "uninsured": 3.61,
+    "rentBehind": 6.23
+  },
+  "East South Central": {
+    "states": [
+      "AL",
+      "KY",
+      "MS",
+      "TN"
+    ],
+    "n": 334,
+    "aiUsage": 25.42,
+    "foodInsufficient": 8.12,
+    "expenseDifficult": 75.58,
+    "employed": 59.06,
+    "uninsured": 5.67,
+    "rentBehind": 4.04
+  },
+  "Middle Atlantic": {
+    "states": [
+      "NJ",
+      "NY",
+      "PA"
+    ],
+    "n": 917,
+    "aiUsage": 19.27,
+    "foodInsufficient": 9.46,
+    "expenseDifficult": 82.94,
+    "employed": 55.71,
+    "uninsured": 4.08,
+    "rentBehind": 21.23
+  },
+  "Mountain": {
+    "states": [
+      "AZ",
+      "CO",
+      "ID",
+      "MT",
+      "NV",
+      "NM",
+      "UT",
+      "WY"
+    ],
+    "n": 464,
+    "aiUsage": 24.78,
+    "foodInsufficient": 5.32,
+    "expenseDifficult": 79.02,
+    "employed": 52.5,
+    "uninsured": 8.61,
+    "rentBehind": 1.61
+  },
+  "New England": {
+    "states": [
+      "CT",
+      "ME",
+      "MA",
+      "NH",
+      "RI",
+      "VT"
+    ],
+    "n": 645,
+    "aiUsage": 33.79,
+    "foodInsufficient": 6.97,
+    "expenseDifficult": 79.43,
+    "employed": 59,
+    "uninsured": 9.56,
+    "rentBehind": 5.19
+  },
+  "East North Central": {
+    "states": [
+      "IL",
+      "IN",
+      "MI",
+      "OH",
+      "WI"
+    ],
+    "n": 1051,
+    "aiUsage": 21.67,
+    "foodInsufficient": 6.9,
+    "expenseDifficult": 82.67,
+    "employed": 58.37,
+    "uninsured": 6.55,
+    "rentBehind": 2.19
+  },
+  "West North Central": {
+    "states": [
+      "IA",
+      "KS",
+      "MN",
+      "MO",
+      "NE",
+      "ND",
+      "SD"
+    ],
+    "n": 515,
+    "aiUsage": 30.43,
+    "foodInsufficient": 5.39,
+    "expenseDifficult": 87.71,
+    "employed": 55.32,
+    "uninsured": 4.13,
+    "rentBehind": 5.32
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "anywork": {
+    "counts": {
+      "1": 147419048.13254634,
+      "2": 112856729.4286719
+    },
+    "percentages": {
+      "1": 56.64,
+      "2": 43.36
+    },
+    "total": 260275777.56121817,
+    "n": 7470
+  },
+  "workType": {
+    "counts": {
+      "1": 23231044.83997057,
+      "2": 87840919.09288648,
+      "3": 18222441.74053938,
+      "4": 13185157.662662106,
+      "5": 2416882.6556737116
+    },
+    "percentages": {
+      "1": 16.03,
+      "2": 60.62,
+      "3": 12.58,
+      "4": 9.1,
+      "5": 1.67
+    },
+    "total": 144896445.99173242,
+    "n": 4282
+  },
+  "telework": {
+    "counts": {
+      "1": 17749788.179137073,
+      "2": 11206698.909257602,
+      "3": 21649454.675567824,
+      "4": 96674591.00399409
+    },
+    "percentages": {
+      "1": 12.05,
+      "2": 7.61,
+      "3": 14.7,
+      "4": 65.64
+    },
+    "total": 147280532.76795682,
+    "n": 4305
+  },
+  "byRegion": {
+    "South Atlantic": {
+      "employed": 57.65,
+      "states": [
+        "DE",
+        "DC",
+        "FL",
+        "GA",
+        "MD",
+        "NC",
+        "SC",
+        "VA",
+        "WV"
+      ]
+    },
+    "West South Central": {
+      "employed": 56.93,
+      "states": [
+        "AR",
+        "LA",
+        "OK",
+        "TX"
+      ]
+    },
+    "Pacific": {
+      "employed": 55.31,
+      "states": [
+        "AK",
+        "CA",
+        "HI",
+        "OR",
+        "WA"
+      ]
+    },
+    "East South Central": {
+      "employed": 59.06,
+      "states": [
+        "AL",
+        "KY",
+        "MS",
+        "TN"
+      ]
+    },
+    "Middle Atlantic": {
+      "employed": 55.71,
+      "states": [
+        "NJ",
+        "NY",
+        "PA"
+      ]
+    },
+    "Mountain": {
+      "employed": 52.5,
+      "states": [
+        "AZ",
+        "CO",
+        "ID",
+        "MT",
+        "NV",
+        "NM",
+        "UT",
+        "WY"
+      ]
+    },
+    "New England": {
+      "employed": 59,
+      "states": [
+        "CT",
+        "ME",
+        "MA",
+        "NH",
+        "RI",
+        "VT"
+      ]
+    },
+    "East North Central": {
+      "employed": 58.37,
+      "states": [
+        "IL",
+        "IN",
+        "MI",
+        "OH",
+        "WI"
+      ]
+    },
+    "West North Central": {
+      "employed": 55.32,
+      "states": [
+        "IA",
+        "KS",
+        "MN",
+        "MO",
+        "NE",
+        "ND",
+        "SD"
+      ]
+    }
+  }
+}
