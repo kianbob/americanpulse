@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { articles } from '../data';
+import ShareOnX from '../../components/ShareOnX';
 import type { Metadata } from 'next';
 
 export function generateStaticParams() {
@@ -127,14 +128,33 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           })}
         </div>
 
-        <footer className="mt-12 pt-8 border-t border-gray-200 print:hidden">
-          <p className="text-sm text-gray-500 mb-4">
-            Data from U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), March 2026.
-          </p>
-          <div className="flex flex-wrap gap-4">
-            <Link href="/articles" className="text-[--primary] hover:underline text-sm font-medium">More Articles &rarr;</Link>
+        {/* Share */}
+        <div className="mt-8 flex items-center gap-4">
+          <ShareOnX text={`${article.title} — data from the 2026 Census HTOPS survey`} url={`https://www.howisamerica.com/articles/${article.slug}`} />
+        </div>
+
+        {/* Related */}
+        <section className="mt-10 pt-8 border-t border-gray-200 print:hidden">
+          <h3 className="text-lg font-bold text-gray-900 mb-4">More Analysis</h3>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {articles.filter(a => a.slug !== article.slug).slice(0, 4).map(a => (
+              <Link key={a.slug} href={`/articles/${a.slug}`} className="block bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors">
+                <div className="text-xs text-gray-500 mb-1">{a.topic}</div>
+                <div className="text-sm font-medium text-gray-900">{a.title}</div>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-6 flex flex-wrap gap-4">
+            <Link href="/calculator" className="text-[--primary] hover:underline text-sm font-medium">Take the Calculator &rarr;</Link>
+            <Link href="/states" className="text-[--primary] hover:underline text-sm font-medium">State Profiles &rarr;</Link>
             <Link href="/downloads" className="text-[--primary] hover:underline text-sm font-medium">Download Data &rarr;</Link>
           </div>
+        </section>
+
+        <footer className="mt-8 pt-6 border-t border-gray-200 print:hidden">
+          <p className="text-sm text-gray-500">
+            Data from U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), March 2026.
+          </p>
         </footer>
       </article>
     </div>

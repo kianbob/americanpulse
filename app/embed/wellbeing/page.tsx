@@ -61,7 +61,7 @@ export default function EmbedWellbeing() {
 
   const max = ranked.length > 0 ? Math.max(...ranked.map((r) => r.score)) : 120;
 
-  const embedCode = '<iframe src="https://americanpulse-app.vercel.app/embed/wellbeing" width="600" height="800" frameborder="0"></iframe>';
+  const embedCode = '<iframe src="https://www.howisamerica.com/embed/wellbeing" width="600" height="800" frameborder="0"></iframe>';
 
   function handleCopy() {
     navigator.clipboard.writeText(embedCode).then(() => {
@@ -112,7 +112,7 @@ export default function EmbedWellbeing() {
 
       <div style={{ marginTop: '20px', paddingTop: '12px', borderTop: '1px solid #e5e7eb' }}>
         <a
-          href="https://americanpulse-app.vercel.app"
+          href="https://www.howisamerica.com"
           target="_blank"
           rel="noopener noreferrer"
           style={{ fontSize: '11px', color: '#9ca3af', textDecoration: 'none' }}

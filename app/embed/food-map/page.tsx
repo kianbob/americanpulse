@@ -40,7 +40,7 @@ export default function EmbedFoodMap() {
   const max = unique.length > 0 ? Math.max(...unique.map((s) => s.foodInsufficient)) : 10;
   const natAvg = data?.national?.foodInsufficient ?? 7;
 
-  const embedCode = '<iframe src="https://americanpulse-app.vercel.app/embed/food-map" width="600" height="800" frameborder="0"></iframe>';
+  const embedCode = '<iframe src="https://www.howisamerica.com/embed/food-map" width="600" height="800" frameborder="0"></iframe>';
 
   function handleCopy() {
     navigator.clipboard.writeText(embedCode).then(() => {
@@ -94,7 +94,7 @@ export default function EmbedFoodMap() {
 
       <div style={{ marginTop: '20px', paddingTop: '12px', borderTop: '1px solid #e5e7eb' }}>
         <a
-          href="https://americanpulse-app.vercel.app"
+          href="https://www.howisamerica.com"
           target="_blank"
           rel="noopener noreferrer"
           style={{ fontSize: '11px', color: '#9ca3af', textDecoration: 'none' }}

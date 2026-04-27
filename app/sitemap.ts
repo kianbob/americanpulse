@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://americanpulse-app.vercel.app';
+  const base = 'https://www.howisamerica.com';
 
   const regionRaw = fs.readFileSync(path.join(process.cwd(), 'public/data/region-stats.json'), 'utf-8');
   const regions: Record<string, unknown> = JSON.parse(regionRaw);

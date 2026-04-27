@@ -149,7 +149,7 @@ export default function CalculatorPage() {
   }
 
   function shareScore() {
-    const text = `My American Pulse Score is ${score}/100 — ${scoreLabel(score!)}! How is America really doing? Find out at americanpulse-app.vercel.app/calculator`;
+    const text = `My American Pulse Score is ${score}/100 — ${scoreLabel(score!)}! How is America really doing? Find out at www.howisamerica.com/calculator`;
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);

@@ -3,6 +3,7 @@ import path from 'path';
 import Link from 'next/link';
 import StatCard from '../../components/StatCard';
 import BarChart from '../../components/BarChart';
+import ShareOnX from '../../components/ShareOnX';
 import type { Metadata } from 'next';
 
 interface StateEntry {
@@ -339,16 +340,24 @@ export default async function StateDetailPage({ params }: { params: Promise<{ sl
           </p>
         </div>
 
+        {/* Share */}
+        <div className="flex items-center gap-4 print:hidden">
+          <ShareOnX text={`${state.name}: ${state.aiUsage}% AI usage, ${state.foodInsufficient}% food insecure, ${state.employed}% employed. See the data:`} url={`https://www.howisamerica.com/states/${state.slug}`} />
+        </div>
+
         {/* Cross-links */}
-        <div className="grid sm:grid-cols-3 gap-4 print:hidden">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 print:hidden">
           <Link href={`/regions/${state.division.toLowerCase().replace(/\s+/g, '-')}`} className="block bg-blue-50 rounded-xl p-4 text-center hover:bg-blue-100 transition-colors">
             <div className="text-sm font-medium text-blue-700">View {state.division} Region &rarr;</div>
           </Link>
-          <Link href="/states" className="block bg-purple-50 rounded-xl p-4 text-center hover:bg-purple-100 transition-colors">
-            <div className="text-sm font-medium text-purple-700">All States &rarr;</div>
-          </Link>
           <Link href="/compare" className="block bg-green-50 rounded-xl p-4 text-center hover:bg-green-100 transition-colors">
             <div className="text-sm font-medium text-green-700">Compare Metrics &rarr;</div>
+          </Link>
+          <Link href="/calculator" className="block bg-amber-50 rounded-xl p-4 text-center hover:bg-amber-100 transition-colors">
+            <div className="text-sm font-medium text-amber-700">Take the Calculator &rarr;</div>
+          </Link>
+          <Link href="/articles" className="block bg-purple-50 rounded-xl p-4 text-center hover:bg-purple-100 transition-colors">
+            <div className="text-sm font-medium text-purple-700">Read Analysis &rarr;</div>
           </Link>
         </div>
       </div>

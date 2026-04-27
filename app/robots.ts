@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://americanpulse-app.vercel.app/sitemap.xml',
+    sitemap: 'https://www.howisamerica.com/sitemap.xml',
   };
 }

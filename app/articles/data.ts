@@ -426,6 +426,136 @@ The data amounts to a **wellbeing lottery**: born in the Mountain West, you face
 *Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
   },
   {
+    slug: 'state-wellbeing-rankings-2026',
+    title: 'Which States Are Struggling the Most? The 2026 Wellbeing Rankings',
+    description: 'Ranking all 9 Census divisions by a composite Wellbeing Index built from food security, housing, employment, insurance, and expense data.',
+    date: '2026-04-25',
+    topic: 'Wellbeing',
+    content: `Every Census division tells a different story about American life in 2026. By combining six HTOPS metrics into a composite **Wellbeing Index**, we can rank the regions and see where Americans are thriving and where they're struggling.
+
+## How the Wellbeing Index Works
+
+Each metric is scored on a 0-100 scale relative to the best and worst divisions, then averaged. Higher employment and AI usage are positive; higher food insecurity, uninsured rates, rent delinquency, and expense difficulty are negative.
+
+## The Rankings
+
+**1. Mountain (AZ, CO, ID, MT, NV, NM, UT, WY)** — Lowest rent delinquency (1.61%), moderate food insecurity (5.32%), expense difficulty 79.02%. Lower housing costs are the key advantage.
+
+**2. West North Central (IA, KS, MN, MO, NE, ND, SD)** — Strong AI adoption (30.43%), low food insecurity (5.39%). But the highest expense difficulty in the nation (87.71%).
+
+**3. East North Central (IL, IN, MI, OH, WI)** — Very low rent delinquency (2.19%) and food insecurity (6.90%). Solid employment at 58.37%.
+
+**4. New England (CT, ME, MA, NH, RI, VT)** — Nation-leading AI adoption (33.79%) and employment (59.00%). Moderate food insecurity (6.97%).
+
+**5. Pacific (AK, CA, HI, OR, WA)** — Middle of the pack. Lowest uninsured rate (3.61%) is a bright spot.
+
+**6. West South Central (AR, LA, OK, TX)** — Low food insecurity (5.30%) but highest uninsured rate (16.10%).
+
+**7. South Atlantic (DE, DC, FL, GA, MD, NC, SC, VA, WV)** — Rent delinquency at 15.11%, second highest nationally.
+
+**8. East South Central (AL, KY, MS, TN)** — Highest employment (59.06%) but food insecurity at 8.12%.
+
+**9. Middle Atlantic (NJ, NY, PA)** — Most stressed. Highest food insecurity (9.46%), highest rent delinquency (21.23%), near-highest expense difficulty (82.94%).
+
+## What Drives the Rankings?
+
+Housing affordability is the single strongest predictor. The Mountain division's 1.61% rent delinquency versus the Middle Atlantic's 21.23% creates a 13x gap. Insurance coverage is the second biggest differentiator.
+
+## The Takeaway
+
+Your region shapes your economic reality. **Cost of living, not GDP, is the true measure of regional prosperity**.
+
+*See the full Wellbeing Index at [Wellbeing](/wellbeing). Explore each division on our [Regions page](/regions). Take the [calculator](/calculator) to see how you compare.*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+  },
+  {
+    slug: 'ai-generation-gap-2026',
+    title: 'The AI Generation Gap: Young Americans Lead AI Adoption',
+    description: 'Census HTOPS age data reveals who uses AI and who doesn\'t — and the answer defies simple assumptions about young people and tech.',
+    date: '2026-04-26',
+    topic: 'AI',
+    content: `The 2026 Census HTOPS data on AI adoption by age defies the simplest assumptions. **The 25-39 age group leads AI adoption at 27.95%** — and the age curve isn't a simple downward slope.
+
+## AI Usage by Age
+
+- **18-24:** 20.69% (n=144)
+- **25-39:** 27.95% (n=1,667) — the highest
+- **40-54:** 24.65% (n=1,917)
+- **55-64:** 26.89% (n=1,357) — surprisingly high
+- **65+:** 18.84% (n=2,366) — the lowest
+
+The surprise is the 55-64 bracket at 26.89% — nearly matching the 25-39 leaders. These are late-career professionals in management or knowledge-worker roles where AI tools are increasingly standard.
+
+## Why Aren't 18-24-Year-Olds Leading?
+
+**Small sample size (n=144)** means higher margin of error. **Embedded AI vs. recognized AI** — young adults use AI-powered features daily but may not label them as AI. Among 18-24-year-olds, 23.77% said they're "not sure" if they use AI — the highest uncertainty of any age group.
+
+**Workplace vs. personal use** — much of the AI surge is workplace-driven. The 25-39 and 55-64 cohorts use AI for work projects and professional tasks.
+
+## The Professional Sweet Spot
+
+The 25-39 bracket leads because they're deep enough in careers to encounter AI at work, young enough to be comfortable with new tech, and in industries that have aggressively adopted AI.
+
+The 40-54 dip to 24.65% may reflect more traditional roles, but the bounce to 26.89% for 55-64 shows senior professionals embracing AI as a productivity tool.
+
+## The 65+ Gap
+
+At 18.84%, Americans 65+ have the lowest adoption. But that still means roughly **9 million older adults are using AI** — mostly for finding information and health questions.
+
+## What This Means
+
+The AI generation gap isn't a cliff — it's a curve with a surprising bump among older professionals. The real divide is about **workplace exposure, income, and education**, not birth year.
+
+*See the full AI data on our [AI page](/ai). Explore the income divide in [The AI Prosperity Gap](/articles/ai-prosperity-gap). Take the [calculator](/calculator).*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+  },
+  {
+    slug: 'food-crisis-census-2026',
+    title: "America's Food Crisis Isn't Over: What the Census Data Shows",
+    description: '7.03% of Americans are food insecure in 2026 — down from pandemic peaks but still 18.3 million adults. Census HTOPS vs USDA data.',
+    date: '2026-04-27',
+    topic: 'Food',
+    content: `The pandemic may be over, but America's food crisis is not. The 2026 Census HTOPS data shows **7.03% of Americans are food insecure** — approximately **18.3 million adults** who sometimes or often don't have enough to eat.
+
+## Census vs. USDA: Two Measures of Hunger
+
+**USDA Food Security Survey (2023):** 13.5% of households food insecure at some point during the year; 47.4 million people affected.
+
+**Census HTOPS (March 2026):** 7.03% food insecure in the past 7 days. 5.29% sometimes didn't have enough; 1.74% often didn't have enough. An additional 22.48% had food but not always the kinds they wanted.
+
+The USDA number is higher because it captures any food insecurity over a full year. The HTOPS is a weekly snapshot — 7.03% at any given point means roughly 1 in 14 adults.
+
+## The Regional Food Map
+
+**Highest:** Middle Atlantic (9.46%), East South Central (8.12%), Pacific (7.47%)
+
+**Lowest:** West South Central (5.30%), Mountain (5.32%), West North Central (5.39%)
+
+**Food insecurity tracks cost of living**, not poverty alone.
+
+## The Shadow Food Crisis
+
+The **22.48% who have enough food but not the kinds they want** represent the shadow food crisis — Americans surviving on cheap processed food. Combined with the 7.03%, **nearly 30% of Americans face food access challenges**.
+
+## The Pandemic Recovery — and Its Limits
+
+Food insecurity dropped from 23% (2020) to 7.03% (2026). But the recovery has plateaued — 7% appears to be a structural floor that economic growth alone can't break through.
+
+## The Expense Connection
+
+The tradeoff is stark: pay rent or eat. In the Middle Atlantic where rent delinquency is 21.23%, food is often what gets cut.
+
+## What the Data Demands
+
+America's food crisis is structural, not cyclical. Addressing it requires tackling the underlying cost structure: housing, health care, and wage stagnation.
+
+*Explore food data on our [Food Security page](/food). See [Regions](/regions) for breakdowns. Check [Food Insecurity by State](/food-insecurity-by-state) for state-level data.*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026. USDA ERS, Household Food Security 2023.*`,
+  },
+  {
     slug: 'uninsured-2026',
     title: 'The Uninsured in 2026: 8% of Americans Still Without Coverage',
     description: 'Census HTOPS data shows 7.45% of Americans lack health insurance. By region, income, and age — who falls through the cracks.',
