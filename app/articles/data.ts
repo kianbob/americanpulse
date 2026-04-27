@@ -42,7 +42,7 @@ The data is clear: AI is no longer a niche technology. With nearly one in four A
 
 *See who is lobbying to regulate AI at [theailobby.com](https://theailobby.com). Explore which jobs face the most AI exposure at [aiexposure.org](https://aiexposure.org).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'food-insecurity-map-2026',
@@ -87,7 +87,7 @@ These numbers represent real families making impossible tradeoffs between food, 
 
 *Explore food data in detail on our [Food Security page](/food). See regional breakdowns on our [Regions page](/regions).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'housing-burden-by-state-2026',
@@ -132,7 +132,7 @@ The contrast with the Mountain region's 1.61% suggests that housing affordabilit
 
 *Explore the full housing data on our [Housing page](/housing). Compare regions with our [Compare tool](/compare).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'metro-vs-rural-2026',
@@ -183,7 +183,7 @@ What remains true: cost of living creates real differences in housing burden (1.
 
 *Explore metro-level AI data on our [AI page](/ai). Compare regions with our [Compare tool](/compare).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'census-pulse-survey-2026',
@@ -191,7 +191,7 @@ What remains true: cost of living creates real differences in housing burden (1.
     description: 'A comprehensive look at the 2026 Census HTOPS data: AI adoption, food security, housing, employment, health, and spending across America.',
     date: '2026-04-19',
     topic: 'Overview',
-    content: `The U.S. Census Bureau's Household Trends and Outlook Pulse Survey (HTOPS), Wave 2506, is one of the most comprehensive snapshots of American life available. Surveying 7,485 respondents with weighted estimates representing approximately 261 million American adults, it covers AI usage, food security, housing, employment, health insurance, spending, and transportation. Here are the key findings.
+    content: `The U.S. Census Bureau's Household Trends and Outlook Pulse Survey (HTOPS), March 2026, is one of the most comprehensive snapshots of American life available. Surveying 7,485 respondents with weighted estimates representing approximately 261 million American adults, it covers AI usage, food security, housing, employment, health insurance, spending, and transportation. Here are the key findings.
 
 ## AI: A Mainstream Technology
 
@@ -229,51 +229,64 @@ The regional data is perhaps most striking: the same country produces a 1.61% re
 
 *Explore all the data across our topic pages: [AI](/ai), [Food](/food), [Housing](/housing), [Employment](/employment), [Health](/health), [Spending](/spending), [Transportation](/transportation). Download the raw data on our [Downloads page](/downloads).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'ai-prosperity-gap',
-    title: 'The AI Prosperity Gap: Rich Americans Use AI 3x More Than Poor Americans',
-    description: 'Census HTOPS data reveals a stark income divide in AI adoption: households earning $100K+ use AI at 26.9% vs 18.8% for those under $25K.',
+    title: 'The AI Prosperity Gap: The Surprising U-Shape of AI Adoption by Income',
+    description: 'Census HTOPS data reveals a surprising pattern: the $25K-$35K bracket uses AI more (29%) than those earning $150K+ (25%). The income story is more complex than expected.',
     date: '2026-04-20',
     topic: 'AI',
-    content: `The 2026 Census HTOPS survey confirms what many suspected: **artificial intelligence is not an equal-opportunity technology**. Americans in higher-income households are significantly more likely to use AI tools than their lower-income counterparts — but the story is more complicated than a simple rich-vs-poor divide.
+    content: `The 2026 Census HTOPS survey reveals something unexpected about AI adoption and income: **the relationship isn't linear — it's U-shaped.** The $25K–$35K bracket uses AI at **29.28%**, the highest of any income group, while those earning $150K+ come in at just **25.08%**. The simple narrative of "rich people use AI more" doesn't hold up.
 
 ## The Income × AI Cross-Tab
 
-The headline numbers are stark. Households earning **$100K–$150K report AI usage at 26.89%**, the highest of any income bracket. Those earning **$150K+ come in at 25.08%**. At the bottom end, Americans in households earning **under $25K use AI at just 18.83%** — a gap of more than 8 percentage points.
+The full income breakdown tells a nuanced story:
 
-But the data contains a surprise. The **$25K–$35K bracket reports 29.28% AI usage** — the highest of any income group. This anomaly may reflect bargain-hunting behavior: lower-middle-income Americans using free AI tools like ChatGPT for practical tasks like price comparison, coupon finding, and budget management. It could also reflect younger workers in entry-level jobs who are digital natives comfortable with AI tools despite modest incomes.
-
-## The Middle Class AI Plateau
-
-The middle income brackets tell a flatter story:
-
+- **Under $25K:** 18.83%
+- **$25K–$35K:** 29.28% — the **highest** of any bracket
 - **$35K–$50K:** 22.11%
 - **$50K–$75K:** 22.96%
 - **$75K–$100K:** 24.37%
+- **$100K–$150K:** 26.89%
+- **$150K+:** 25.08%
 
-This suggests a plateau effect. Once Americans cross a basic digital access threshold, income alone doesn't dramatically increase AI adoption until the $100K+ mark. The jump from $75K–$100K (24.37%) to $100K–$150K (26.89%) may reflect workplaces where AI tools are provided and encouraged — corporate environments, professional services, and tech-adjacent industries.
+The ratio between the highest ($150K+) and lowest (under $25K) brackets is just **1.33×** — far from a dramatic divide. And the $25K–$35K bracket actually **exceeds** the top earners by 4 percentage points.
 
-## The Digital Divide Implications
+## The U-Shape Story
 
-The AI prosperity gap matters because AI is increasingly a productivity multiplier. Workers who use AI tools report saving time on research, writing, and analysis. Students who use AI for learning have access to a personalized tutor. Consumers who use AI for shopping find better deals.
+Why do lower-middle-income Americans lead AI adoption? Several theories:
 
-If AI usage tracks with income, the technology risks **amplifying existing inequality** rather than reducing it. The rich get richer — and now they get smarter, faster, too.
+**Practical necessity:** Americans earning $25K–$35K may use free AI tools like ChatGPT for practical tasks — price comparison, budget management, job searching, navigating bureaucracy. When money is tight, a free productivity tool is more valuable.
 
-## Education Compounds the Gap
+**Digital natives in entry-level jobs:** This bracket skews younger — digital natives comfortable with AI tools despite modest incomes.
 
-Education and income are intertwined, and both predict AI usage. **Bachelor's degree holders use AI at 28.62%**, while those with only a high school diploma come in at 22.78%. Graduate degree holders report 27.59%. The education gap compounds the income gap: Americans with less education tend to earn less AND use AI less, creating a double disadvantage.
+**The middle-class plateau:** The $35K–$75K range shows the lowest adoption (22–23%), suggesting a "comfortable enough" zone where the urgency to adopt new tools is lower.
 
-## What Could Close the Gap?
+## The Real Divide
 
-The $25K–$35K anomaly offers a clue. Free, accessible AI tools can reach lower-income Americans when the tools solve real problems — finding information, managing money, navigating bureaucracy. Libraries, community colleges, and workforce development programs could accelerate this.
+The under-$25K bracket at 18.83% does show a meaningful gap — but it's a gap of access and awareness, not a 3× chasm. The true digital divide may be less about income and more about **context**: whether your workplace introduces AI, whether your social circle uses it, and whether you see it as solving a real problem in your life.
 
-The alternative is a future where AI makes the already-advantaged even more productive, while those without access fall further behind. The Census data suggests we're at an inflection point: AI adoption is mainstream enough to matter, but uneven enough to worry about.
+## Education Matters More Than Income
+
+Education correlates more strongly with AI adoption than income:
+
+- **Bachelor's degree:** 28.62%
+- **Associate degree:** 28.31%
+- **Graduate degree:** 27.59%
+- **High school diploma:** 22.78%
+
+The education gap is wider and more consistent than the income gap, suggesting that **familiarity with information tools** — not purchasing power — drives adoption.
+
+## What This Means
+
+The U-shaped pattern is actually encouraging. It suggests that free AI tools are already reaching lower-income Americans who find them useful. The policy implication: **expanding awareness and digital literacy** may matter more than subsidizing access. The tools are already free — the gap is knowing they exist and how to use them.
+
+*Correction (April 27, 2026): This article originally stated a 3× gap between high and low-income AI usage. The actual ratio is 1.33× ($150K+: 25.08% vs under $25K: 18.83%). The article has been rewritten to reflect the more accurate — and more interesting — U-shaped adoption pattern. See our [corrections page](/corrections) for details.*
 
 *See who is lobbying to regulate AI at [theailobby.com](https://theailobby.com). Explore which jobs face the most AI exposure at [aiexposure.org](https://aiexposure.org).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'americas-squeeze-expenses',
@@ -323,7 +336,7 @@ An economy where four out of five adults struggle with expenses is an economy un
 
 *Explore financial data on our [Spending page](/spending). Compare regional differences with our [Compare tool](/compare).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'covid-recovery-six-years',
@@ -371,7 +384,7 @@ America in 2026 is measurably better off than America in 2020. Food insecurity h
 
 *Explore the full data across our topic pages: [Food](/food), [Housing](/housing), [Employment](/employment), [Health](/health), [Spending](/spending).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026. Historical comparisons from Census Household Pulse Survey (2020–2023).*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026. Historical comparisons from Census Household Pulse Survey (2020–2023).*`,
   },
   {
     slug: 'zip-code-determines-wellbeing',
@@ -423,7 +436,7 @@ The data amounts to a **wellbeing lottery**: born in the Mountain West, you face
 
 *Explore regional data on our [Regions page](/regions). Compare divisions with our [Compare tool](/compare). See the full Wellbeing Index at [Wellbeing](/wellbeing).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'state-wellbeing-rankings-2026',
@@ -467,7 +480,7 @@ Your region shapes your economic reality. **Cost of living, not GDP, is the true
 
 *See the full Wellbeing Index at [Wellbeing](/wellbeing). Explore each division on our [Regions page](/regions). Take the [calculator](/calculator) to see how you compare.*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'ai-generation-gap-2026',
@@ -509,7 +522,7 @@ The AI generation gap isn't a cliff — it's a curve with a surprising bump amon
 
 *See the full AI data on our [AI page](/ai). Explore the income divide in [The AI Prosperity Gap](/articles/ai-prosperity-gap). Take the [calculator](/calculator).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'food-crisis-census-2026',
@@ -553,7 +566,7 @@ America's food crisis is structural, not cyclical. Addressing it requires tackli
 
 *Explore food data on our [Food Security page](/food). See [Regions](/regions) for breakdowns. Check [Food Insecurity by State](/food-insecurity-by-state) for state-level data.*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026. USDA ERS, Household Food Security 2023.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026. USDA ERS, Household Food Security 2023.*`,
   },
   {
     slug: 'uninsured-2026',
@@ -621,7 +634,7 @@ The 2026 HTOPS data serves as a reminder: America's uninsured problem is smaller
 
 *Explore health insurance data on our [Health page](/health). See state-level estimates on our [States pages](/states).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'trust-rankings-congress-last',
@@ -680,7 +693,7 @@ Meanwhile, Congress sits at 17.9% and falling. In a democracy, the institution d
 
 *Explore the full trust rankings with demographic breakdowns on our [Trust page](/trust). See who lobbies Congress at [theailobby.com](https://theailobby.com).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'childcare-desert-income',
@@ -742,7 +755,7 @@ At 6.6% of families affected in any given month, the annual exposure is likely m
 
 *Explore the full childcare data on our [Childcare page](/childcare). See how expenses affect families on our [Spending page](/spending).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
   {
     slug: 'price-shock-2026',
@@ -814,6 +827,6 @@ The HTOPS data suggests the price shock of 2021-2023 hasn't been absorbed — it
 
 *Explore price and spending data on our [Prices page](/prices) and [Spending page](/spending). See food impact at [Food Security](/food).*
 
-*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+*Data source: U.S. Census Bureau HTOPS, March 2026.*`,
   },
 ];

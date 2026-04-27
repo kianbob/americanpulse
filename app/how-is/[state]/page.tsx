@@ -74,7 +74,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   if (!result) return { title: 'State Not Found' };
   const { state } = result;
   return {
-    title: `How Is ${state.name} Doing? 2026 Data | American Pulse`,
+    title: `How Is ${state.name} Doing? 2026 Data | How Is America`,
     description: `How is ${state.name} doing in 2026? AI usage, food security, housing, employment, and more from Census data.`,
   };
 }

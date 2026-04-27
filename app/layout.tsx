@@ -16,23 +16,23 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'American Pulse — How America Is Really Doing | 2026 Census Data',
-    template: '%s | American Pulse',
+    default: 'How Is America — How America Is Really Doing | 2026 Census Data',
+    template: '%s | How Is America',
   },
   description:
     'Explore how America is really doing through U.S. Census Bureau HTOPS data: 24% use AI, 7% food insecure, 8.87% behind on rent. Real data on AI, food, housing, employment, health, and more.',
   metadataBase: new URL('https://www.howisamerica.com'),
   openGraph: {
-    title: 'American Pulse — How America Is Really Doing',
+    title: 'How Is America — How America Is Really Doing',
     description: 'Explore Census HTOPS data on AI usage, food security, housing, employment, health, and spending across America.',
     url: 'https://www.howisamerica.com',
-    siteName: 'American Pulse',
+    siteName: 'How Is America',
     type: 'website',
     images: ['/og-image.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'American Pulse — 2026 Census Data Explorer',
+    title: 'How Is America — 2026 Census Data Explorer',
     description: '24% of Americans use AI. 7% are food insecure. Explore the real data.',
   },
 };
@@ -40,12 +40,12 @@ export const metadata: Metadata = {
 const websiteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'American Pulse',
+  name: 'How Is America',
   url: 'https://www.howisamerica.com',
   description: 'Exploring how America is really doing through U.S. Census Bureau HTOPS pulse survey data.',
   publisher: {
     '@type': 'Organization',
-    name: 'American Pulse',
+    name: 'How Is America',
   },
 };
 

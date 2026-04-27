@@ -99,7 +99,7 @@ export default function EmbedFoodMap() {
           rel="noopener noreferrer"
           style={{ fontSize: '11px', color: '#9ca3af', textDecoration: 'none' }}
         >
-          Powered by American Pulse
+          Powered by How Is America
         </a>
       </div>
 

@@ -6,7 +6,7 @@ import StatCard from '../../components/StatCard';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'The AI Divide: Does AI Correlate with Economic Wellbeing? | American Pulse',
+  title: 'The AI Divide: Does AI Correlate with Economic Wellbeing? | How Is America',
   description:
     'Explore how AI adoption correlates with income, education, and geography. Census data reveals a growing AI divide across American demographics.',
 };
@@ -202,7 +202,7 @@ export default function AIDividePage() {
         <section className="bg-gray-50 rounded-xl p-6 sm:p-8">
           <h2 className="text-lg font-bold text-gray-900 mb-2">About This Data</h2>
           <p className="text-sm text-gray-600">
-            Data from the U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), Wave 2506.
+            Data from the U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), March 2026.
             All percentages are weighted using PWEIGHT to be representative of the U.S. adult population.
             The AI question asks whether respondents used AI tools &ldquo;in the past 2 months.&rdquo;
             Some demographic subgroups have small sample sizes; interpret with caution.

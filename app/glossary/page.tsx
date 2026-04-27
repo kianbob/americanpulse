@@ -2,9 +2,9 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Data Glossary — Terms & Definitions | American Pulse',
+  title: 'Data Glossary — Terms & Definitions | How Is America',
   description:
-    'Definitions for every metric, index, and data source used on American Pulse — from AI Usage to Wellbeing Index.',
+    'Definitions for every metric, index, and data source used on How Is America — from AI Usage to Wellbeing Index.',
 };
 
 interface GlossaryEntry {
@@ -55,7 +55,7 @@ export default function GlossaryPage() {
     <div className="mx-auto max-w-4xl px-4 py-12">
       <h1 className="mb-2 text-4xl font-bold text-gray-900 dark:text-white">Data Glossary</h1>
       <p className="mb-10 text-lg text-gray-600 dark:text-gray-300">
-        Definitions for every metric, index, and data source used on American Pulse.
+        Definitions for every metric, index, and data source used on How Is America.
       </p>
 
       <dl className="space-y-6">

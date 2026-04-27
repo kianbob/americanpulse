@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const article = articles.find((a) => a.slug === slug);
   if (!article) return { title: 'Article Not Found' };
   return {
-    title: `${article.title} | American Pulse`,
+    title: `${article.title} | How Is America`,
     description: article.description,
   };
 }

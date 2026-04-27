@@ -16,9 +16,9 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <div className="text-xl font-bold text-white mb-3">American Pulse</div>
+            <div className="text-xl font-bold text-white mb-3">How Is America</div>
             <p className="text-sm text-gray-400 leading-relaxed">
-              Data from the U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), March 2026. Wave 2506 &middot; Weighted estimates using PWEIGHT.
+              Data from the U.S. Census Bureau Household Pulse Survey (HTOPS), March 2026. Weighted estimates using PWEIGHT.
             </p>
             <p className="text-sm text-gray-400 mt-3">
               Built by Kian O Connor &middot; Part of{' '}

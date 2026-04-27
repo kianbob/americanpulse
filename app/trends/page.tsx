@@ -5,7 +5,7 @@ import StatCard from '../components/StatCard';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Trend Tracker: How America Is Changing | American Pulse',
+  title: 'Trend Tracker: How America Is Changing | How Is America',
   description:
     'Track key indicators over time: AI adoption, food insecurity, housing burden, employment, and more across Census HTOPS waves 2502, 2504, and 2506.',
 };

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'How Are You Doing? Calculator — American Pulse',
+  title: 'How Are You Doing? Calculator — How Is America',
   description: 'Compare your situation to the national average. Answer questions about income, housing, food security, and more to see where you stand among Americans.',
 };
 

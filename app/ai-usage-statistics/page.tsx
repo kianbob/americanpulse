@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     '24.07% of Americans use AI according to Census HTOPS 2026 data. Explore AI adoption by age, income, education, and region with official government statistics.',
   openGraph: {
-    title: 'How Many Americans Use AI? 2026 Census Data | American Pulse',
+    title: 'How Many Americans Use AI? 2026 Census Data | How Is America',
     description: '24.07% of Americans use AI. See demographics, top uses, and concerns from Census HTOPS data.',
   },
 };
@@ -35,7 +35,7 @@ const faqJsonLd = {
       name: 'How many Americans use AI?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'According to the U.S. Census Bureau HTOPS survey (Wave 2506), 24.07% of Americans report using artificial intelligence — approximately 62.5 million adults. Another 20.08% are not sure whether they have used AI, suggesting true usage may be higher.',
+        text: 'According to the U.S. Census Bureau HTOPS survey (March 2026), 24.07% of Americans report using artificial intelligence — approximately 62.5 million adults. Another 20.08% are not sure whether they have used AI, suggesting true usage may be higher.',
       },
     },
     {

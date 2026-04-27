@@ -171,7 +171,7 @@ export default function InequalityPage() {
         </section>
 
         <div className="text-center text-xs text-gray-400">
-          Source: U.S. Census Bureau HTOPS, Wave 2506, March 2026. Cross-tabulation of RFAM_INCOME against
+          Source: U.S. Census Bureau HTOPS, March 2026. Cross-tabulation of RFAM_INCOME against
           FOODSUFR, RENTCUR/MORTCUR, EXPNS_DIF, AINTRNT1, and RHLTHINS variables. All estimates weighted using PWEIGHT.
         </div>
       </div>

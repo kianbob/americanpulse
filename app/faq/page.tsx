@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'FAQ — 50 Questions About America | American Pulse',
+  title: 'FAQ — 50 Questions About America | How Is America',
   description:
     'Answers to 50 common questions about AI usage, food security, housing, trust, employment, health, and wellbeing in America — backed by Census and federal data.',
 };
@@ -116,7 +116,7 @@ const faqData: FaqTopic[] = [
       { q: 'How current is the data?', a: 'HTOPS data is from the March 2026 survey wave.', href: '/methodology' },
       { q: 'Can I download the data?', a: 'Yes — we provide downloadable datasets on our downloads page.', href: '/downloads' },
       { q: 'How are the estimates calculated?', a: 'All estimates are weighted using PWEIGHT, the person-level survey weight, to produce nationally representative figures.', href: '/methodology' },
-      { q: 'Is this site affiliated with the Census Bureau?', a: 'No — American Pulse is an independent analysis project. We use publicly available Census data but have no official affiliation.', href: '/about' },
+      { q: 'Is this site affiliated with the Census Bureau?', a: 'No — How Is America is an independent analysis project. We use publicly available Census data but have no official affiliation.', href: '/about' },
     ],
   },
 ];

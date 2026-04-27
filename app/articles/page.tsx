@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
-  title: 'Analysis Articles — American Pulse',
+  title: 'Analysis Articles — How Is America',
   description: 'Data-driven analysis articles based on the 2026 Census HTOPS survey, covering AI adoption, food insecurity, housing burden, and more.',
 };
 

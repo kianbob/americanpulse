@@ -66,7 +66,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!result) return { title: 'Region Not Found' };
   const [name, data] = result;
   return {
-    title: `${name} — Regional Data | American Pulse`,
+    title: `${name} — Regional Data | How Is America`,
     description: `Census HTOPS data for ${name} (${data.states.join(', ')}): ${data.metrics.aiUsage ?? 0}% AI usage, ${data.metrics.employed ?? 0}% employed, ${data.metrics.foodInsufficient ?? 0}% food insecure.`,
   };
 }

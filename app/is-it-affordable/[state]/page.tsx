@@ -72,7 +72,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
     title: `Is ${state.name} Affordable? What the Data Says`,
     description: `Is ${state.name} affordable? ${state.expenseDifficult}% find expenses difficult (${verdict}). ${state.rentBehind}% behind on rent, ${state.uninsured}% uninsured. Real Census data on affordability in ${state.name}.`,
     openGraph: {
-      title: `Is ${state.name} Affordable? What the Data Says | American Pulse`,
+      title: `Is ${state.name} Affordable? What the Data Says | How Is America`,
       description: `${state.expenseDifficult}% of ${state.name} residents find expenses difficult. Here's what the data says about affordability.`,
     },
   };

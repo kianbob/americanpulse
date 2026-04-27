@@ -3,7 +3,7 @@ import NewsletterForm from '../components/NewsletterForm';
 
 export const metadata: Metadata = {
   title: 'Data Updates & Newsletter',
-  description: 'Stay up to date with the latest Census HTOPS data releases. Subscribe to get notified when new American Pulse data drops.',
+  description: 'Stay up to date with the latest Census HTOPS data releases. Subscribe to get notified when new How Is America data drops.',
 };
 
 const timeline = [
@@ -43,7 +43,7 @@ export default function UpdatesPage() {
             Data Updates & Newsletter
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Stay up to date with the latest Census HTOPS data releases and American Pulse analysis.
+            Stay up to date with the latest Census HTOPS data releases and How Is America analysis.
           </p>
         </div>
       </section>
@@ -105,7 +105,7 @@ export default function UpdatesPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">About the Data</h2>
           <div className="space-y-3 text-sm text-gray-700">
             <p>
-              American Pulse uses data from the U.S. Census Bureau&apos;s Household Topics and Outlook Pulse Survey (HTOPS).
+              How Is America uses data from the U.S. Census Bureau&apos;s Household Topics and Outlook Pulse Survey (HTOPS).
               This bimonthly survey captures how Americans are experiencing key issues like AI adoption, food security,
               housing costs, employment, and health insurance coverage.
             </p>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     '8.87% of renters and 4.37% of mortgage holders are behind on payments. Explore housing cost burden data by state and region from Census HTOPS 2026.',
   openGraph: {
-    title: 'Housing Cost Burden by State 2026 | American Pulse',
+    title: 'Housing Cost Burden by State 2026 | How Is America',
     description: '8.87% of renters are behind on payments. Explore regional and state-level housing burden data.',
   },
 };

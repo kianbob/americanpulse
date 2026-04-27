@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
-  title: 'Two Americas: Metro vs Rural — AI Adoption by Geography | American Pulse',
+  title: 'Two Americas: Metro vs Rural — AI Adoption by Geography | How Is America',
   description:
     'Compare AI adoption rates across 10 major U.S. metro areas and non-metro regions. Census HTOPS data reveals geographic divides in AI usage.',
 };

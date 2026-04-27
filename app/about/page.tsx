@@ -2,8 +2,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About — American Pulse',
-  description: 'About the American Pulse project, data methodology, Census divisions, and privacy policy.',
+  title: 'About — How Is America',
+  description: 'About the How Is America project, data methodology, Census divisions, and privacy policy.',
 };
 
 export default function AboutPage() {
@@ -13,17 +13,17 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">About This Project</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Understanding the data behind American Pulse.
+            Understanding the data behind How Is America.
           </p>
         </div>
       </section>
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
-        {/* What is American Pulse */}
+        {/* What is How Is America */}
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">What Is American Pulse?</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-4">What Is How Is America?</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            American Pulse is a free, open data visualization platform that makes U.S. Census Bureau data accessible and understandable. We transform raw survey data into interactive charts, maps, and analysis covering AI adoption, food security, housing affordability, employment, health insurance, and spending across America.
+            How Is America is a free, open data visualization platform that makes U.S. Census Bureau data accessible and understandable. We transform raw survey data into interactive charts, maps, and analysis covering AI adoption, food security, housing affordability, employment, health insurance, and spending across America.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Our goal is to answer one question: <strong>How is America really doing?</strong> By combining data from multiple federal sources, we provide a comprehensive, data-driven picture of American life in 2026.
@@ -34,12 +34,12 @@ export default function AboutPage() {
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Data Sources</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            American Pulse draws on multiple official government data sources:
+            How Is America draws on multiple official government data sources:
           </p>
           <ul className="space-y-3 text-gray-700">
             <li className="flex gap-3">
               <span className="text-[--primary] font-bold shrink-0">&#8226;</span>
-              <span><strong>U.S. Census Bureau HTOPS</strong> — Household Trends and Outlook Pulse Survey (primary source, Wave 2506, March 2026)</span>
+              <span><strong>U.S. Census Bureau Household Pulse Survey (HTOPS)</strong> — primary source, March 2026</span>
             </li>
             <li className="flex gap-3">
               <span className="text-[--primary] font-bold shrink-0">&#8226;</span>
@@ -148,7 +148,7 @@ export default function AboutPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">Privacy Policy</h2>
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              American Pulse is a static data visualization website. We are committed to protecting your privacy.
+              How Is America is a static data visualization website. We are committed to protecting your privacy.
             </p>
             <p>
               <strong>Data Collection:</strong> This website does not collect personal information from visitors.

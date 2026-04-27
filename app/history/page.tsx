@@ -182,7 +182,7 @@ export default function HistoryPage() {
         </section>
 
         <div className="text-center text-xs text-gray-400">
-          Sources: U.S. Census Bureau Household Pulse Survey (2020–2024), HTOPS Wave 2506 (March 2026).
+          Sources: U.S. Census Bureau Household Pulse Survey (2020–2024), HTOPS March 2026.
           Historical summary statistics from published HPS data tables. USDA Economic Research Service food security reports.
         </div>
       </div>

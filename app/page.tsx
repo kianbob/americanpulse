@@ -44,7 +44,7 @@ const topics = [
 ];
 
 const tickerItems = [
-  '27% use AI',
+  '24% use AI',
   '20% food insecure',
   '56% struggle with expenses',
   '8.9% behind on rent',
@@ -95,36 +95,35 @@ export default function Home() {
             How Is America Really Doing?
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-4">
-            Exploring life in America through the U.S. Census Bureau&apos;s Household Trends
-            and Outlook Pulse Survey (HTOPS) data.
+            Exploring life in America through the U.S. Census Bureau&apos;s Household Pulse Survey (HTOPS) data.
           </p>
           <p className="text-base text-gray-500 max-w-2xl mx-auto mb-8">
             Real-time data from the U.S. Census Bureau on AI, food, housing, jobs, and more
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
+            <Link
+              href="/calculator"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[--primary] text-white rounded-xl font-semibold text-lg shadow-lg shadow-blue-500/25 hover:bg-blue-700 hover:shadow-xl hover:shadow-blue-500/30 hover:-translate-y-0.5 transition-all"
+            >
+              How Are You Doing? →
+            </Link>
             <a
               href="#explore"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-[--primary] text-white rounded-xl font-semibold text-lg shadow-lg shadow-blue-500/25 hover:bg-blue-700 hover:shadow-xl hover:shadow-blue-500/30 hover:-translate-y-0.5 transition-all"
+              className="inline-flex items-center gap-2 px-8 py-4 border-2 border-[--primary] text-[--primary] rounded-xl font-semibold text-lg hover:bg-[--primary] hover:text-white hover:-translate-y-0.5 transition-all"
             >
               Explore the Data
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
               </svg>
             </a>
-            <Link
-              href="/calculator"
-              className="inline-flex items-center gap-2 px-8 py-4 border-2 border-[--primary] text-[--primary] rounded-xl font-semibold text-lg hover:bg-[--primary] hover:text-white hover:-translate-y-0.5 transition-all"
-            >
-              🧪 Take the Quiz
-            </Link>
           </div>
           <div className="inline-flex items-center gap-2 bg-[--primary-light] text-[--primary] px-4 py-2 rounded-full text-sm font-medium">
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
             </svg>
-            Powered by U.S. Census Bureau HTOPS data &middot; Wave 2506
+            Data from U.S. Census Bureau Household Pulse Survey (HTOPS) &middot; March 2026
           </div>
-          <p className="text-sm text-gray-500 mt-3">Data updated: March 2026 (Wave 2506)</p>
+          <p className="text-sm text-gray-500 mt-3">Data updated: March 2026</p>
         </div>
       </section>
 
@@ -134,7 +133,7 @@ export default function Home() {
           <span className="text-2xl" aria-hidden="true">📊</span>
           <p className="text-sm sm:text-base font-medium text-gray-800">
             <span className="font-bold text-[--primary]">Key Finding:</span>{' '}
-            Americans making $200K+ are 3× more likely to use AI than those making $25K or less.
+            AI adoption doesn&apos;t follow the income ladder — the $25K-$35K bracket uses AI more (29%) than those earning $150K+ (25%). The real story is more surprising than &apos;rich use AI more.&apos;
           </p>
           <Link href="/articles/ai-prosperity-gap" className="shrink-0 text-xs text-[--primary] hover:underline font-medium hidden sm:inline">
             Read more →
@@ -161,7 +160,7 @@ export default function Home() {
             <StatCard key={s.label} value={s.value} label={s.label} color={s.color} />
           ))}
         </div>
-        <p className="text-xs text-gray-400 text-center mt-3">Source: U.S. Census Bureau HTOPS Wave 2506 · March 2026</p>
+        <p className="text-xs text-gray-400 text-center mt-3">Source: U.S. Census Bureau Household Pulse Survey (HTOPS) · March 2026</p>
       </section>
 
       {/* Topic Cards */}

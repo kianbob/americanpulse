@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     '7.03% of Americans report food insufficiency according to Census HTOPS data. Explore food insecurity rates by state and region with the latest 2026 data.',
   openGraph: {
-    title: 'Food Insecurity by State 2026 — Census Data | American Pulse',
+    title: 'Food Insecurity by State 2026 — Census Data | How Is America',
     description: '7.03% of Americans report food insufficiency. See regional and state-level food insecurity data.',
   },
 };
@@ -59,7 +59,7 @@ const faqJsonLd = {
       name: 'What percentage of Americans are food insecure?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'According to Census HTOPS data (Wave 2506), 7.03% of Americans report food insufficiency — sometimes or often not having enough to eat. The USDA reports a higher overall food insecurity rate of approximately 14.3% nationally using a broader measure.',
+        text: 'According to Census HTOPS data (March 2026), 7.03% of Americans report food insufficiency — sometimes or often not having enough to eat. The USDA reports a higher overall food insecurity rate of approximately 14.3% nationally using a broader measure.',
       },
     },
   ],

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     '19.77% of Americans report expense difficulty. Explore cost of living challenges by state and region with Census HTOPS 2026 data.',
   openGraph: {
-    title: 'Cost of Living Difficulty by State 2026 | American Pulse',
+    title: 'Cost of Living Difficulty by State 2026 | How Is America',
     description: '19.77% of Americans find expenses difficult. See regional and state-level cost of living data.',
   },
 };
@@ -64,7 +64,7 @@ const faqJsonLd = {
       name: 'How many Americans struggle with expenses?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'According to Census HTOPS data (Wave 2506), 19.77% of Americans find it somewhat or very difficult to pay for usual household expenses. 12.23% find it somewhat difficult and 7.54% find it very difficult.',
+        text: 'According to Census HTOPS data (March 2026), 19.77% of Americans find it somewhat or very difficult to pay for usual household expenses. 12.23% find it somewhat difficult and 7.54% find it very difficult.',
       },
     },
     {

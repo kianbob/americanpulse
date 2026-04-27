@@ -84,7 +84,7 @@ export default function ChildcarePage() {
         </section>
 
         <p className="text-xs text-gray-500 text-center">
-          Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.
+          Data source: U.S. Census Bureau HTOPS, March 2026.
         </p>
       </div>
     </div>

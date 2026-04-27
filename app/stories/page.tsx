@@ -2,9 +2,9 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Data Stories — Weekly Highlights | American Pulse',
+  title: 'Data Stories — Weekly Highlights | How Is America',
   description:
-    'Weekly data highlights from the American Pulse project. Census-powered stories on AI adoption, trust in institutions, food insecurity, health coverage, and more.',
+    'Weekly data highlights from the How Is America project. Census-powered stories on AI adoption, trust in institutions, food insecurity, health coverage, and more.',
 };
 
 const stories = [

@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: 'What is the source of this data?',
-    answer: 'This data comes from the U.S. Census Bureau\'s Household Trends and Outlook Pulse Survey (HTOPS), Wave 2506, conducted in March 2026. The survey represents approximately 259 million American adults.',
+    answer: 'This data comes from the U.S. Census Bureau\'s Household Trends and Outlook Pulse Survey (HTOPS), March 2026, conducted in March 2026. The survey represents approximately 259 million American adults.',
   },
 ];
 
@@ -72,7 +72,7 @@ export default function CongressTrustPage() {
         </div>
 
         <p className="text-xs text-gray-500 text-center">
-          Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.
+          Data source: U.S. Census Bureau HTOPS, March 2026.
         </p>
       </div>
     </div>

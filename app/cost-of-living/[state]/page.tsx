@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
     title: `Cost of Living in ${state.name} 2026`,
     description: `Cost of living data for ${state.name}: ${state.expenseDifficult}% find expenses difficult, ${state.rentBehind}% behind on rent, ${state.uninsured}% uninsured. Compare ${state.name} to national averages with Census HTOPS data.`,
     openGraph: {
-      title: `Cost of Living in ${state.name} 2026 | American Pulse`,
+      title: `Cost of Living in ${state.name} 2026 | How Is America`,
       description: `${state.expenseDifficult}% of ${state.name} residents find expenses difficult. See how ${state.name} compares to the national average.`,
     },
   };

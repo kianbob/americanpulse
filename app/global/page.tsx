@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import KeyInsight from '../components/KeyInsight';
 
 export const metadata: Metadata = {
-  title: 'How Does the US Compare? International Data | American Pulse',
+  title: 'How Does the US Compare? International Data | How Is America',
   description:
     'Compare the United States against 7 other nations on AI adoption, food insecurity, health coverage, housing burden, and government trust using international survey data.',
 };

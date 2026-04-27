@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Methodology — Data Dictionary, Indexes, Sampling & Limitations',
   description:
-    'How American Pulse processes Census HTOPS data, computes the Wellbeing and Squeeze indexes, and supplements with USDA, BLS, and ACS/FRED data. Includes full data dictionary, formulas, and limitations.',
+    'How How Is America processes Census HTOPS data, computes the Wellbeing and Squeeze indexes, and supplements with USDA, BLS, and ACS/FRED data. Includes full data dictionary, formulas, and limitations.',
 };
 
 export default function MethodologyPage() {
@@ -13,7 +13,7 @@ export default function MethodologyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">Methodology</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            How we collect, process, and present the data behind American Pulse.
+            How we collect, process, and present the data behind How Is America.
           </p>
         </div>
       </section>
@@ -22,7 +22,7 @@ export default function MethodologyPage() {
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Primary Data Source: Census HTOPS</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            The primary data source for American Pulse is the{' '}
+            The primary data source for How Is America is the{' '}
             <a
               href="https://www.census.gov/programs-surveys/htops.html"
               className="text-[--primary] hover:underline"
@@ -31,7 +31,7 @@ export default function MethodologyPage() {
             >
               U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS)
             </a>
-            . HTOPS is the successor to the Household Pulse Survey that ran during and after the COVID-19 pandemic.
+            . The Household Pulse Survey (HPS) was officially relaunched as part of the Household Trends and Outlook Pulse Survey (HTOPS) in January 2025. Our data comes from HTOPS Wave 2506 (March 2026).
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             HTOPS is a rapid-response survey designed to measure how emerging social and economic issues
@@ -39,14 +39,14 @@ export default function MethodologyPage() {
             food security, housing, employment, health insurance, household spending, and transportation.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            American Pulse uses data from <strong>Wave 2506</strong>, collected in <strong>March 2026</strong>.
+            How Is America uses data from <strong>March 2026</strong> (Wave 2506).
           </p>
         </section>
 
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Data Dictionary</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Key HTOPS variables used throughout American Pulse, with their coding and descriptions:
+            Key HTOPS variables used throughout How Is America, with their coding and descriptions:
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -204,7 +204,7 @@ export default function MethodologyPage() {
               <span className="text-[--primary] font-bold">&#8226;</span>
               <span>
                 <strong>State-level data:</strong> The HTOPS public-use file does not include state identifiers.
-                State-level data on American Pulse comes from supplemental sources (ACS, BLS, USDA) rather
+                State-level data on How Is America comes from supplemental sources (ACS, BLS, USDA) rather
                 than HTOPS directly.
               </span>
             </li>
@@ -334,7 +334,7 @@ export default function MethodologyPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">Geographic Granularity</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             The HTOPS Public Use File (PUF) identifies respondent geography at the <strong>Census Division</strong> level
-            only — it does not include state-level identifiers. This means all regional analysis on American Pulse
+            only — it does not include state-level identifiers. This means all regional analysis on How Is America
             is at the division level (9 divisions), not the state level.
           </p>
           <div className="grid sm:grid-cols-2 gap-3 text-sm text-gray-700 mt-4">
@@ -403,7 +403,7 @@ export default function MethodologyPage() {
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Supplemental Data Sources</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            American Pulse supplements HTOPS data with state-level data from five additional federal sources:
+            How Is America supplements HTOPS data with state-level data from five additional federal sources:
           </p>
           <ul className="space-y-3 text-gray-700">
             <li className="flex gap-3">
@@ -517,7 +517,7 @@ export default function MethodologyPage() {
               <span className="text-[--primary] font-bold">&#8226;</span>
               <span>
                 <strong>Composite indexes:</strong> The Wellbeing and Squeeze indexes are constructed by
-                American Pulse, not the Census Bureau. The choice of weights, normalization method, and
+                How Is America, not the Census Bureau. The choice of weights, normalization method, and
                 included metrics reflects editorial judgment and is not an official government statistic.
               </span>
             </li>
@@ -558,7 +558,7 @@ export default function MethodologyPage() {
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Trust, Price Stress, Childcare &amp; Transportation Detail</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Wave 2506 introduced several new topic modules analyzed on American Pulse:
+            Wave 2506 introduced several new topic modules analyzed on How Is America:
           </p>
           <ul className="space-y-3 text-gray-700">
             <li className="flex gap-3">

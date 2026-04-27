@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Download Data — American Pulse',
+  title: 'Download Data — How Is America',
   description: 'Download Census HTOPS data files in JSON format. Free, open data from the U.S. Census Bureau Household Trends and Outlook Pulse Survey.',
 };
 
@@ -59,7 +59,7 @@ export default function DownloadsPage() {
         <div className="bg-blue-50 rounded-xl p-6 mb-8">
           <h2 className="text-lg font-bold text-blue-900 mb-2">Data Source</h2>
           <p className="text-blue-800 text-sm">
-            Data from the <strong>U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS)</strong>, March 2026 (Wave 2506).
+            Data from the <strong>U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS)</strong>, March 2026 (March 2026).
             All percentages are weighted using PWEIGHT to produce nationally representative estimates.
             Sample size: 7,485 respondents. Geographic data is at the Census Division level.
           </p>
@@ -92,7 +92,7 @@ export default function DownloadsPage() {
             It is free to use for any purpose. If you use this data, please cite:
           </p>
           <blockquote className="mt-3 pl-4 border-l-4 border-gray-300 text-sm text-gray-600 italic">
-            U.S. Census Bureau, Household Trends and Outlook Pulse Survey (HTOPS), Wave 2506, March 2026. Public Use File.
+            U.S. Census Bureau, Household Trends and Outlook Pulse Survey (HTOPS), March 2026. Public Use File.
           </blockquote>
         </div>
       </div>

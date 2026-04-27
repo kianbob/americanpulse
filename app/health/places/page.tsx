@@ -177,7 +177,7 @@ export default function CdcPlacesPage() {
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             State-level values shown here are population-weighted averages of county-level estimates.
-            The Health Score is a composite metric computed by American Pulse that considers obesity, diabetes,
+            The Health Score is a composite metric computed by How Is America that considers obesity, diabetes,
             depression, physical inactivity, smoking, binge drinking, insufficient sleep, lack of insurance,
             and annual checkup rates.
           </p>

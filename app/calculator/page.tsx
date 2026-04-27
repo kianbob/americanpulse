@@ -150,7 +150,7 @@ export default function CalculatorPage() {
   }
 
   function shareScore() {
-    const text = `My American Pulse Score is ${score}/100 — ${scoreLabel(score!)}! How is America really doing? Find out at www.howisamerica.com/calculator`;
+    const text = `My How Is America Score is ${score}/100 — ${scoreLabel(score!)}! How is America really doing? Find out at www.howisamerica.com/calculator`;
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -167,7 +167,7 @@ export default function CalculatorPage() {
             How Are You Doing?
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Take the American Pulse quiz to calculate your personal Pulse Score and see how you compare
+            Take the How Is America quiz to calculate your personal Pulse Score and see how you compare
             to your state and the national average.
           </p>
         </div>
