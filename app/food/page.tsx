@@ -1,6 +1,12 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
+
+export const metadata: Metadata = {
+  title: 'Food Security in America — 2026 Census Data',
+  description: 'Explore food insecurity rates across America. See which states and demographics face the greatest food challenges, based on U.S. Census HTOPS data.',
+};
 import BarChart from '../components/BarChart';
 import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
 

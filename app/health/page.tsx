@@ -1,7 +1,13 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
 import BarChart from '../components/BarChart';
+
+export const metadata: Metadata = {
+  title: 'Health Insurance Coverage — 2026 Census Data',
+  description: 'Health insurance coverage and uninsured rates across America by state, age, and income. Based on U.S. Census HTOPS survey data.',
+};
 
 interface NationalStats {
   health: {

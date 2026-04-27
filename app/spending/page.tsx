@@ -1,6 +1,12 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
+
+export const metadata: Metadata = {
+  title: 'Spending & Expenses — 2026 Census Data',
+  description: 'How Americans handle expenses and price changes. Explore spending difficulty rates by state, income, and demographics from Census HTOPS data.',
+};
 import BarChart from '../components/BarChart';
 
 interface NationalStats {

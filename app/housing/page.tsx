@@ -1,6 +1,12 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
+
+export const metadata: Metadata = {
+  title: 'Housing Burden in America — 2026 Census Data',
+  description: 'Rent and mortgage burden across America. See which states have the highest rates of housing cost stress, based on U.S. Census HTOPS survey data.',
+};
 import BarChart from '../components/BarChart';
 import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
 

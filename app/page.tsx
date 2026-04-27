@@ -122,6 +122,20 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Key Finding Callout */}
+      <section className="bg-gradient-to-r from-indigo-50 to-blue-50 border-b border-indigo-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex items-center justify-center gap-3 text-center">
+          <span className="text-2xl" aria-hidden="true">📊</span>
+          <p className="text-sm sm:text-base font-medium text-gray-800">
+            <span className="font-bold text-[--primary]">Key Finding:</span>{' '}
+            Americans making $200K+ are 3× more likely to use AI than those making $25K or less.
+          </p>
+          <Link href="/articles/ai-prosperity-gap" className="shrink-0 text-xs text-[--primary] hover:underline font-medium hidden sm:inline">
+            Read more →
+          </Link>
+        </div>
+      </section>
+
       {/* Quick Stats Ticker */}
       <section className="bg-gray-900 text-white py-3 overflow-hidden">
         <div className="animate-marquee flex whitespace-nowrap gap-12">

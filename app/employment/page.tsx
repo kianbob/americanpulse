@@ -1,6 +1,12 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
 import StatCard from '../components/StatCard';
+
+export const metadata: Metadata = {
+  title: 'Employment in America — 2026 Census Data',
+  description: 'Employment rates, work types, and telework patterns across America by state and demographics. Based on U.S. Census HTOPS survey data.',
+};
 import BarChart from '../components/BarChart';
 import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
 

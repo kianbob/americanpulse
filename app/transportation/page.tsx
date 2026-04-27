@@ -1,6 +1,12 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
 import BarChart from '../components/BarChart';
+
+export const metadata: Metadata = {
+  title: 'Transportation in America — 2026 Census Data',
+  description: 'How Americans commute and get around. Transportation modes and patterns by state and region, based on U.S. Census HTOPS survey data.',
+};
 
 interface NationalStats {
   transportation: {
