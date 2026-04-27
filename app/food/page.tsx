@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import StatCard from '../components/StatCard';
 import BarChart from '../components/BarChart';
+import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
 
 interface FoodStats {
   sufficiency: { percentages: Record<string, number> };
@@ -57,6 +58,8 @@ export default function FoodPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-6">Food Insufficiency by Region</h2>
           <BarChart items={regionItems} maxValue={12} color="#dc2626" />
         </section>
+
+        <CrossPortfolioCallout type="food" />
       </div>
     </div>
   );

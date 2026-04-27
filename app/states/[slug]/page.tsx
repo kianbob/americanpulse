@@ -24,9 +24,37 @@ interface StatesData {
   states: Record<string, StateEntry>;
 }
 
+interface AcsProfile {
+  name: string;
+  fips: string;
+  medianIncome: number | null;
+  medianRent: number | null;
+  medianHomeValue: number | null;
+  medianAge: number | null;
+  povertyRate: number | null;
+  bachelorsOrHigher: number | null;
+  unemploymentRate: number | null;
+}
+
+interface CdcState {
+  name: string;
+  measures: Record<string, number | null>;
+  healthScore: number;
+}
+
 function getData(): StatesData {
   const raw = fs.readFileSync(path.join(process.cwd(), 'public/data/states-data.json'), 'utf-8');
   return JSON.parse(raw);
+}
+
+function getAcsData(): Record<string, AcsProfile> {
+  const raw = fs.readFileSync(path.join(process.cwd(), 'public/data/acs-state-profiles.json'), 'utf-8');
+  return JSON.parse(raw).states;
+}
+
+function getCdcData(): Record<string, CdcState> {
+  const raw = fs.readFileSync(path.join(process.cwd(), 'public/data/cdc-places.json'), 'utf-8');
+  return JSON.parse(raw).states;
 }
 
 export async function generateStaticParams() {
@@ -85,6 +113,10 @@ export default async function StateDetailPage({ params }: { params: Promise<{ sl
   }
 
   const nat = data.national;
+  const acsStates = getAcsData();
+  const cdcStates = getCdcData();
+  const acs = acsStates[state.abbreviation];
+  const cdc = cdcStates[state.abbreviation];
 
   // Get sibling states in same division
   const siblings = Object.values(data.states)
@@ -201,6 +233,100 @@ export default async function StateDetailPage({ params }: { params: Promise<{ sl
           </section>
         )}
 
+        {/* ACS Demographics */}
+        {acs && (
+          <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
+            <h2 className="text-xl font-bold text-gray-900 mb-2">Demographics &amp; Economics</h2>
+            <p className="text-sm text-gray-500 mb-6">From the 2023 American Community Survey 1-Year Estimates.</p>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              {acs.medianIncome != null && (
+                <div className="text-center bg-gray-50 rounded-lg p-3">
+                  <div className="text-lg font-bold text-gray-900">${acs.medianIncome.toLocaleString()}</div>
+                  <div className="text-xs text-gray-500">Median Income</div>
+                </div>
+              )}
+              {acs.medianRent != null && (
+                <div className="text-center bg-gray-50 rounded-lg p-3">
+                  <div className="text-lg font-bold text-gray-900">${acs.medianRent.toLocaleString()}</div>
+                  <div className="text-xs text-gray-500">Median Rent</div>
+                </div>
+              )}
+              {acs.medianHomeValue != null && (
+                <div className="text-center bg-gray-50 rounded-lg p-3">
+                  <div className="text-lg font-bold text-gray-900">${acs.medianHomeValue.toLocaleString()}</div>
+                  <div className="text-xs text-gray-500">Median Home Value</div>
+                </div>
+              )}
+              {acs.medianAge != null && (
+                <div className="text-center bg-gray-50 rounded-lg p-3">
+                  <div className="text-lg font-bold text-gray-900">{acs.medianAge}</div>
+                  <div className="text-xs text-gray-500">Median Age</div>
+                </div>
+              )}
+              {acs.povertyRate != null && (
+                <div className="text-center bg-gray-50 rounded-lg p-3">
+                  <div className="text-lg font-bold text-gray-900">{acs.povertyRate}%</div>
+                  <div className="text-xs text-gray-500">Poverty Rate</div>
+                </div>
+              )}
+              {acs.bachelorsOrHigher != null && (
+                <div className="text-center bg-gray-50 rounded-lg p-3">
+                  <div className="text-lg font-bold text-gray-900">{acs.bachelorsOrHigher}%</div>
+                  <div className="text-xs text-gray-500">Bachelor&apos;s+</div>
+                </div>
+              )}
+              {acs.unemploymentRate != null && (
+                <div className="text-center bg-gray-50 rounded-lg p-3">
+                  <div className="text-lg font-bold text-gray-900">{acs.unemploymentRate}%</div>
+                  <div className="text-xs text-gray-500">Unemployment</div>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* CDC Health Data */}
+        {cdc && (
+          <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
+            <h2 className="text-xl font-bold text-gray-900 mb-2">Health Profile</h2>
+            <p className="text-sm text-gray-500 mb-4">
+              CDC PLACES health indicators. Health Score: <strong className="text-gray-900">{cdc.healthScore}</strong>/100.
+            </p>
+            <div className="grid grid-cols-3 sm:grid-cols-5 gap-4">
+              {cdc.measures.obesity != null && (
+                <div className="text-center">
+                  <div className="text-lg font-bold text-gray-900">{cdc.measures.obesity}%</div>
+                  <div className="text-xs text-gray-500">Obesity</div>
+                </div>
+              )}
+              {cdc.measures.diabetes != null && (
+                <div className="text-center">
+                  <div className="text-lg font-bold text-gray-900">{cdc.measures.diabetes}%</div>
+                  <div className="text-xs text-gray-500">Diabetes</div>
+                </div>
+              )}
+              {cdc.measures.mentalHealth != null && (
+                <div className="text-center">
+                  <div className="text-lg font-bold text-gray-900">{cdc.measures.mentalHealth}%</div>
+                  <div className="text-xs text-gray-500">Depression</div>
+                </div>
+              )}
+              {cdc.measures.smoking != null && (
+                <div className="text-center">
+                  <div className="text-lg font-bold text-gray-900">{cdc.measures.smoking}%</div>
+                  <div className="text-xs text-gray-500">Smoking</div>
+                </div>
+              )}
+              {cdc.measures.physicalInactivity != null && (
+                <div className="text-center">
+                  <div className="text-lg font-bold text-gray-900">{cdc.measures.physicalInactivity}%</div>
+                  <div className="text-xs text-gray-500">Inactivity</div>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
+
         {/* Data note */}
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
           <h3 className="text-sm font-semibold text-amber-800 mb-1">About This Data</h3>
@@ -208,6 +334,8 @@ export default async function StateDetailPage({ params }: { params: Promise<{ sl
             The Census Bureau&apos;s Household Topics (HTOPS) public-use file reports data at the Census Division level,
             not individual states. The metrics shown for {state.name} reflect the {state.division} division aggregate.
             This includes {divisionStates.map((s) => s.abbreviation).join(', ')}.
+            {acs ? ' Demographics come from the 2023 ACS 1-Year Estimates (state-specific).' : ''}
+            {cdc ? ' Health data comes from CDC PLACES 2024 (state-specific).' : ''}
           </p>
         </div>
 

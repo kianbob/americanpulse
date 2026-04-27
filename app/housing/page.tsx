@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import StatCard from '../components/StatCard';
 import BarChart from '../components/BarChart';
+import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
 
 interface HousingStats {
   tenure: { percentages: Record<string, number> };
@@ -58,6 +59,8 @@ export default function HousingPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-6">Rent Delinquency by Region</h2>
           <BarChart items={regionItems} maxValue={25} color="#dc2626" />
         </section>
+
+        <CrossPortfolioCallout type="housing" />
       </div>
     </div>
   );

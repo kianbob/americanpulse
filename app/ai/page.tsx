@@ -3,6 +3,7 @@ import path from 'path';
 import Link from 'next/link';
 import BarChart from '../components/BarChart';
 import StatCard from '../components/StatCard';
+import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -324,6 +325,8 @@ export default function AIPage() {
             <Link href="/downloads" className="text-[--primary] hover:underline text-sm font-medium">Download the Data &rarr;</Link>
           </div>
         </section>
+
+        <CrossPortfolioCallout type="ai" />
       </div>
     </div>
   );

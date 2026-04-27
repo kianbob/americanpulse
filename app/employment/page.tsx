@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import StatCard from '../components/StatCard';
 import BarChart from '../components/BarChart';
+import CrossPortfolioCallout from '../components/CrossPortfolioCallout';
 
 interface EmploymentStats {
   anywork: { percentages: Record<string, number> };
@@ -76,6 +77,8 @@ export default function EmploymentPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-6">Employment Rate by Region</h2>
           <BarChart items={regionItems} maxValue={65} color="#059669" />
         </section>
+
+        <CrossPortfolioCallout type="employment" />
       </div>
     </div>
   );

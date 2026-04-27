@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import StatCard from './components/StatCard';
+import NewsletterForm from './components/NewsletterForm';
 
 interface NationalStats {
   headlines: {
@@ -95,6 +96,20 @@ export default function Home() {
               <p className="text-sm text-gray-500 mt-1">{t.desc}</p>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Get Updates */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <div className="bg-blue-50 rounded-xl border border-blue-200 p-8 sm:p-10 text-center">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">Get Updates</h2>
+          <p className="text-gray-600 mb-6">Get notified when new data drops.</p>
+          <div className="max-w-md mx-auto">
+            <NewsletterForm />
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            No spam. We&apos;ll only email when new Census data is released.
+          </p>
         </div>
       </section>
     </div>

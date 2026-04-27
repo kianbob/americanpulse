@@ -231,4 +231,266 @@ The regional data is perhaps most striking: the same country produces a 1.61% re
 
 *Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
   },
+  {
+    slug: 'ai-prosperity-gap',
+    title: 'The AI Prosperity Gap: Rich Americans Use AI 3x More Than Poor Americans',
+    description: 'Census HTOPS data reveals a stark income divide in AI adoption: households earning $100K+ use AI at 26.9% vs 18.8% for those under $25K.',
+    date: '2026-04-20',
+    topic: 'AI',
+    content: `The 2026 Census HTOPS survey confirms what many suspected: **artificial intelligence is not an equal-opportunity technology**. Americans in higher-income households are significantly more likely to use AI tools than their lower-income counterparts — but the story is more complicated than a simple rich-vs-poor divide.
+
+## The Income × AI Cross-Tab
+
+The headline numbers are stark. Households earning **$100K–$150K report AI usage at 26.89%**, the highest of any income bracket. Those earning **$150K+ come in at 25.08%**. At the bottom end, Americans in households earning **under $25K use AI at just 18.83%** — a gap of more than 8 percentage points.
+
+But the data contains a surprise. The **$25K–$35K bracket reports 29.28% AI usage** — the highest of any income group. This anomaly may reflect bargain-hunting behavior: lower-middle-income Americans using free AI tools like ChatGPT for practical tasks like price comparison, coupon finding, and budget management. It could also reflect younger workers in entry-level jobs who are digital natives comfortable with AI tools despite modest incomes.
+
+## The Middle Class AI Plateau
+
+The middle income brackets tell a flatter story:
+
+- **$35K–$50K:** 22.11%
+- **$50K–$75K:** 22.96%
+- **$75K–$100K:** 24.37%
+
+This suggests a plateau effect. Once Americans cross a basic digital access threshold, income alone doesn't dramatically increase AI adoption until the $100K+ mark. The jump from $75K–$100K (24.37%) to $100K–$150K (26.89%) may reflect workplaces where AI tools are provided and encouraged — corporate environments, professional services, and tech-adjacent industries.
+
+## The Digital Divide Implications
+
+The AI prosperity gap matters because AI is increasingly a productivity multiplier. Workers who use AI tools report saving time on research, writing, and analysis. Students who use AI for learning have access to a personalized tutor. Consumers who use AI for shopping find better deals.
+
+If AI usage tracks with income, the technology risks **amplifying existing inequality** rather than reducing it. The rich get richer — and now they get smarter, faster, too.
+
+## Education Compounds the Gap
+
+Education and income are intertwined, and both predict AI usage. **Bachelor's degree holders use AI at 28.62%**, while those with only a high school diploma come in at 22.78%. Graduate degree holders report 27.59%. The education gap compounds the income gap: Americans with less education tend to earn less AND use AI less, creating a double disadvantage.
+
+## What Could Close the Gap?
+
+The $25K–$35K anomaly offers a clue. Free, accessible AI tools can reach lower-income Americans when the tools solve real problems — finding information, managing money, navigating bureaucracy. Libraries, community colleges, and workforce development programs could accelerate this.
+
+The alternative is a future where AI makes the already-advantaged even more productive, while those without access fall further behind. The Census data suggests we're at an inflection point: AI adoption is mainstream enough to matter, but uneven enough to worry about.
+
+*See who is lobbying to regulate AI at [theailobby.com](https://theailobby.com). Explore which jobs face the most AI exposure at [aiexposure.org](https://aiexposure.org).*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+  },
+  {
+    slug: 'americas-squeeze-expenses',
+    title: "America's Squeeze: 1 in 3 Households Can't Cover Basic Expenses",
+    description: '19.77% of Americans find expenses very difficult and 80.39% report some level of difficulty. Census HTOPS data on the American expense crisis.',
+    date: '2026-04-21',
+    topic: 'Economy',
+    content: `The U.S. Census Bureau's HTOPS survey paints a picture of an America under financial pressure. A staggering **80.39% of respondents report at least some difficulty** covering usual household expenses, with **19.77% finding it very or somewhat difficult**. Only about one in five Americans say paying their bills is not at all difficult.
+
+## How Bad Is It?
+
+The expense difficulty question asks respondents to rate how difficult it is to pay for usual household expenses like food, rent or mortgage, car payments, medical expenses, and student loans. The breakdown:
+
+- **Not at all difficult:** 19.61%
+- **A little difficult:** 60.62%
+- **Somewhat difficult:** 14.93%
+- **Very difficult:** 4.84%
+
+That 4.84% "very difficult" rate represents roughly **12.6 million American adults** who are struggling to cover basic costs. Combined with the 14.93% who find it "somewhat difficult," nearly one in five Americans faces real financial strain.
+
+## The Regional Squeeze
+
+Financial pressure is not evenly distributed across the country. The Census divisions reveal significant variation:
+
+**Most squeezed:**
+- **West North Central (IA, KS, MN, MO, NE, ND, SD): 87.71%** report some difficulty — the highest in the nation despite relatively low housing costs, suggesting that stagnant wages in agricultural and manufacturing economies are taking their toll
+- **Middle Atlantic (NJ, NY, PA): 82.94%** — high cost of living in the New York metro drives this number
+- **South Atlantic (DE, DC, FL, GA, MD, NC, SC, VA, WV): 82.76%** — a fast-growing region where housing costs have outpaced wage growth
+
+**Least squeezed:**
+- **Mountain (AZ, CO, ID, MT, NV, NM, UT, WY): 73.90%** — still high, but the lowest nationally
+- **East South Central (AL, KY, MS, TN): 75.58%** — lower cost of living provides some buffer
+
+## Income Tells the Story
+
+Unsurprisingly, income is the strongest predictor of expense difficulty. Among those earning under $25K, the "very difficult" rate is dramatically higher than for those above $100K. But even among six-figure earners, a majority report at least "a little" difficulty — reflecting the reality that expenses scale with income as people take on mortgages, childcare, and other obligations.
+
+## The Spending Squeeze Effect
+
+The expense difficulty numbers connect to another HTOPS finding: **75.28% of Americans report that price changes have affected their spending**. Inflation may have moderated from its 2022 peaks, but the cumulative effect of years of elevated prices has eroded household budgets.
+
+Americans are adapting: buying less, switching to store brands, cutting discretionary spending. But when 80% of the population finds expenses at least somewhat difficult, the squeeze is no longer affecting just the poor — it's a middle-class reality.
+
+## What It Means
+
+An economy where four out of five adults struggle with expenses is an economy under strain. The data suggests that while headline unemployment is low and GDP growth continues, the lived experience of most Americans involves constant financial juggling. The gap between macroeconomic statistics and kitchen-table economics has rarely been wider.
+
+*Explore financial data on our [Spending page](/spending). Compare regional differences with our [Compare tool](/compare).*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+  },
+  {
+    slug: 'covid-recovery-six-years',
+    title: 'The COVID Recovery, 6 Years Later: Where America Stands in 2026',
+    description: 'Food insecurity dropped from 23% to 7%, anxiety from 40% to ~20%. A data-driven look at how far America has come since 2020 — and what still lags.',
+    date: '2026-04-22',
+    topic: 'Economy',
+    content: `Six years after the COVID-19 pandemic shut down the American economy, the 2026 Census HTOPS data offers a clear-eyed look at recovery. The numbers tell a story of remarkable progress on some fronts — and persistent pain on others.
+
+## The Recovery Scorecard
+
+Comparing the worst moments of the pandemic-era Household Pulse Survey to the 2026 HTOPS data:
+
+**Food insecurity:** Dropped from **23% (2020) to 7.03% (2026)** — a dramatic improvement. At the height of the pandemic, nearly one in four Americans reported food insufficiency as job losses, supply chain disruptions, and school closures combined. Today's 7.03% is still 18.3 million adults, but the trajectory is unmistakable.
+
+**Anxiety/mental health:** Fell from roughly **40% (2020) to ~20% (2026)**. The pandemic-era Pulse Survey recorded record levels of anxiety and depression symptoms. While mental health measures have improved significantly, they remain elevated compared to pre-pandemic baselines.
+
+**Rent delinquency:** Declined from **15% (2020–2021) to 8.87% (2026)**. The eviction moratoriums of 2020–2021 masked even higher true delinquency. Today's 8.87% reflects a normalization, though it remains concerning — especially in the Middle Atlantic at 21.23%.
+
+## What Worked
+
+Several factors drove the recovery:
+
+**Direct stimulus payments** in 2020 and 2021 put cash directly into household budgets, reducing food insecurity and keeping renters current. The expanded Child Tax Credit temporarily cut child poverty in half. Emergency rental assistance prevented millions of evictions.
+
+**Labor market recovery** was faster than many predicted. The unemployment rate returned to pre-pandemic levels by 2022, and the current HTOPS data shows 56.64% employment — roughly in line with historical norms for the adult population (which includes retirees, students, and those not seeking work).
+
+**Vaccine rollout** in 2021 allowed service industries to reopen, bringing back jobs in hospitality, retail, and food service that had been decimated.
+
+## What Didn't Work — Or Hasn't Yet
+
+**Housing affordability** has worsened in many markets. Pandemic-era migration to Sun Belt cities drove up prices in previously affordable areas. The 8.87% national rent delinquency rate understates the crisis in specific regions.
+
+**The expense squeeze is real.** Despite recovery in employment and food security, 80.39% of Americans report difficulty with expenses. Years of cumulative inflation have raised the baseline cost of living, and wages haven't fully caught up.
+
+**Health insurance gaps persist.** At 7.45% uninsured, millions of Americans still lack coverage. The pandemic exposed the fragility of employer-tied insurance, but no durable solution has emerged.
+
+## The Government Efficiency Factor
+
+The current political landscape includes a significant push for government efficiency through the Department of Government Efficiency (DOGE) initiative. While aimed at reducing federal spending, there are concerns that cuts to safety-net programs could slow or reverse recovery gains. The HTOPS data will be critical for tracking whether efficiency measures affect food security, health insurance coverage, and household financial stability in future waves.
+
+## The Bottom Line
+
+America in 2026 is measurably better off than America in 2020. Food insecurity has been cut by two-thirds. Anxiety levels have been halved. Rent delinquency has dropped significantly. But the recovery is uneven and incomplete. The expense squeeze, regional housing crises, and persistent insurance gaps mean that for tens of millions of Americans, the pandemic's economic aftershocks continue to reverberate.
+
+*Explore the full data across our topic pages: [Food](/food), [Housing](/housing), [Employment](/employment), [Health](/health), [Spending](/spending).*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026. Historical comparisons from Census Household Pulse Survey (2020–2023).*`,
+  },
+  {
+    slug: 'zip-code-determines-wellbeing',
+    title: 'Why Your Zip Code Determines Your Wellbeing',
+    description: 'Metro vs rural disparities and regional differences across the 9 Census divisions reveal how geography shapes American wellbeing in 2026.',
+    date: '2026-04-23',
+    topic: 'Regional',
+    content: `The 2026 Census HTOPS data makes one thing clear: **where you live in America shapes nearly every measure of wellbeing**. From food security to AI adoption, housing affordability to health insurance, the 9 Census divisions tell starkly different stories about American life.
+
+## The Regional Wellbeing Map
+
+The American Wellbeing Index, computed from six HTOPS metrics, reveals a geography of advantage and disadvantage:
+
+**Top-performing divisions** tend to cluster in the Mountain West and agricultural Midwest, where lower costs of living buffer households against financial strain. The **Mountain division** (AZ, CO, ID, MT, NV, NM, UT, WY) combines the lowest rent delinquency (1.61%) with moderate food insecurity (5.32%) and reasonable expense difficulty (73.90%).
+
+**Bottom-performing divisions** include the **Middle Atlantic** (NJ, NY, PA), which despite high incomes suffers from crushing housing costs (21.23% rent delinquency), elevated food insecurity (9.46%), and widespread expense difficulty (82.94%). The **East South Central** (AL, KY, MS, TN) faces different challenges: lower housing costs but higher poverty, food insecurity at 8.12%, and the highest uninsured rate outside the West South Central.
+
+## Metro vs. Rural: Not What You'd Expect
+
+The conventional wisdom positions cities as engines of opportunity and rural areas as left behind. The HTOPS data complicates this narrative:
+
+- **AI adoption** is nearly identical: non-metro areas report 24.47% vs. the national 24.07%
+- **Houston (29.80%)** and **Washington DC (29.83%)** lead AI adoption, but **New York trails at just 14.08%**
+- Employment rates don't follow a clean metro/rural divide — the East South Central (mostly rural) leads at 59.06%
+
+The divide isn't metro vs. rural — it's **high-cost vs. low-cost**. Americans in expensive metros face housing burdens that offset their higher incomes. Americans in affordable rural areas face lower incomes but also lower costs.
+
+## Division by Division
+
+**New England** (CT, ME, MA, NH, RI, VT): Leads the nation in AI adoption at 33.79% and has moderate food insecurity (6.97%). Strong local economies and high education levels drive performance, but housing costs are rising.
+
+**Middle Atlantic** (NJ, NY, PA): The most stressed division. Highest food insecurity (9.46%), highest rent delinquency (21.23%), and near-highest expense difficulty. High incomes can't compensate for extreme housing costs.
+
+**South Atlantic** (DE, DC, FL, GA, MD, NC, SC, VA, WV): A mixed bag driven by rapid growth. Rent delinquency at 15.11% reflects Sun Belt housing pressure. DC-area incomes pull up averages, masking poverty in West Virginia and rural Carolinas.
+
+**East South Central** (AL, KY, MS, TN): High employment but high food insecurity (8.12%). Limited safety net infrastructure and persistent poverty define the region's challenges.
+
+**West South Central** (AR, LA, OK, TX): The highest uninsured rate at 16.10% — double the national average. Texas's decision not to expand Medicaid is visible in the data. But lower housing costs keep rent delinquency modest.
+
+**West North Central** (IA, KS, MN, MO, NE, ND, SD): Surprisingly high AI adoption (30.43%) alongside the highest expense difficulty (87.71%). Agricultural economy stress meets digital literacy.
+
+**Mountain** (AZ, CO, ID, MT, NV, NM, UT, WY): The best-performing division on housing (1.61% rent behind) and expense difficulty (73.90%). Growing tech presence in Colorado and Utah drives AI adoption.
+
+**Pacific** (AK, CA, HI, OR, WA): Above-average on most measures but dragged down by California's housing costs and homeless population. Food insecurity at 7.47% tracks the national average.
+
+## The Wellbeing Lottery
+
+The data amounts to a **wellbeing lottery**: born in the Mountain West, you face a 1.61% chance of falling behind on rent. Born in the Middle Atlantic, that chance jumps to 21.23% — a 13× difference. Your zip code isn't destiny, but it's a powerful predictor of financial stress, food access, health coverage, and even access to AI tools.
+
+*Explore regional data on our [Regions page](/regions). Compare divisions with our [Compare tool](/compare). See the full Wellbeing Index at [Wellbeing](/wellbeing).*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+  },
+  {
+    slug: 'uninsured-2026',
+    title: 'The Uninsured in 2026: 8% of Americans Still Without Coverage',
+    description: 'Census HTOPS data shows 7.45% of Americans lack health insurance. By region, income, and age — who falls through the cracks.',
+    date: '2026-04-24',
+    topic: 'Health',
+    content: `Despite decades of health care reform, **7.45% of Americans — roughly 19.4 million adults — lack health insurance** according to the 2026 Census HTOPS survey. The uninsured rate has improved from pre-ACA levels above 15%, but stubborn gaps remain, concentrated by geography, income, and age.
+
+## The National Insurance Picture
+
+The HTOPS data shows how Americans are covered:
+
+- **Employer-sponsored insurance:** 57.04% — still the backbone of American coverage
+- **Medicare:** 28.28% — reflecting the large retiree population
+- **Medicaid/CHIP:** 20.36% — the safety net for low-income Americans
+- **Directly purchased (marketplace):** 15.64% — ACA marketplace plans
+- **TRICARE/VA:** 8.10% — military and veteran coverage
+- **Uninsured:** 7.45%
+
+Note that percentages sum to more than 100% because respondents can have multiple coverage types.
+
+## The Geography of Uninsurance
+
+The regional data reveals a clear policy divide:
+
+**Highest uninsured rates:**
+- **West South Central (AR, LA, OK, TX): 16.10%** — more than double the national average. Texas alone accounts for a significant share, having declined to expand Medicaid under the ACA. Arkansas expanded Medicaid through a private option but Oklahoma and Louisiana have mixed records.
+- **Mountain (AZ, CO, ID, MT, NV, NM, UT, WY): 10.59%** — several states in this division were late Medicaid expanders or have large undocumented populations ineligible for coverage
+- **East South Central (AL, KY, MS, TN): 8.96%** — Alabama and Mississippi have not expanded Medicaid
+
+**Lowest uninsured rates:**
+- **New England (CT, ME, MA, NH, RI, VT): 2.67%** — Massachusetts pioneered universal coverage before the ACA, and all New England states expanded Medicaid
+- **East North Central (IL, IN, MI, OH, WI): 3.72%** — Medicaid expansion and strong employer coverage
+- **Middle Atlantic (NJ, NY, PA): 4.80%** — despite other challenges, the Northeast covers its residents relatively well
+
+The 6× gap between New England (2.67%) and the West South Central (16.10%) illustrates how **state policy choices on Medicaid expansion directly shape coverage rates**.
+
+## Income and Uninsurance
+
+Income is the strongest predictor of coverage status. Americans earning under $25K are far more likely to be uninsured than those above $75K. The coverage gap is sharpest in states without Medicaid expansion, where adults earning between 100–138% of the federal poverty level fall into a "coverage gap" — too much income for Medicaid, too little for affordable marketplace plans.
+
+The $25K–$50K range is particularly vulnerable. These workers often hold jobs that don't offer employer coverage (retail, food service, gig work) but earn too much for Medicaid in non-expansion states.
+
+## Age and Coverage
+
+Coverage patterns follow a predictable age curve:
+
+- **18–24:** Higher uninsured rates, as young adults age off parental plans at 26 and may not have employer coverage
+- **25–39:** The peak uninsured age range — old enough to have aged off parental plans, working in industries less likely to offer coverage
+- **40–64:** Gradually declining uninsured rates as careers stabilize and employer coverage becomes more common
+- **65+:** Near-universal coverage through Medicare (though supplemental coverage varies widely)
+
+The ACA's provision allowing adults to stay on parental plans until 26 helped, but the 25–39 cohort remains the most vulnerable.
+
+## The Cost of Being Uninsured
+
+The 19.4 million uninsured Americans face real consequences: delayed preventive care, emergency room visits for treatable conditions, medical debt as the leading cause of personal bankruptcy, and worse health outcomes. Studies consistently show that gaining insurance coverage improves health, increases access to care, and reduces financial strain.
+
+## What Would Move the Needle?
+
+The data points to clear policy levers. The states with the highest uninsured rates are overwhelmingly those that declined Medicaid expansion. If every state expanded Medicaid, an estimated 2–4 million additional adults would gain coverage. Improving marketplace subsidies and addressing the "family glitch" in employer coverage could reach millions more.
+
+The 2026 HTOPS data serves as a reminder: America's uninsured problem is smaller than it was a decade ago, but it hasn't gone away — and it's concentrated in places where policy choices leave the most vulnerable without coverage.
+
+*Explore health insurance data on our [Health page](/health). See state-level estimates on our [States pages](/states).*
+
+*Data source: U.S. Census Bureau HTOPS, Wave 2506, March 2026.*`,
+  },
 ];
