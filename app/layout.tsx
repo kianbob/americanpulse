@@ -15,9 +15,37 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'American Pulse — Census HTOPS Data Explorer',
+  title: {
+    default: 'American Pulse — How America Is Really Doing | 2026 Census Data',
+    template: '%s | American Pulse',
+  },
   description:
-    'Explore how America is really doing through U.S. Census Bureau HTOPS pulse survey data on AI usage, food security, housing, employment, health, and more.',
+    'Explore how America is really doing through U.S. Census Bureau HTOPS data: 24% use AI, 7% food insecure, 8.87% behind on rent. Real data on AI, food, housing, employment, health, and more.',
+  metadataBase: new URL('https://americanpulse-app.vercel.app'),
+  openGraph: {
+    title: 'American Pulse — How America Is Really Doing',
+    description: 'Explore Census HTOPS data on AI usage, food security, housing, employment, health, and spending across America.',
+    url: 'https://americanpulse-app.vercel.app',
+    siteName: 'American Pulse',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'American Pulse — 2026 Census Data Explorer',
+    description: '24% of Americans use AI. 7% are food insecure. Explore the real data.',
+  },
+};
+
+const websiteJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'American Pulse',
+  url: 'https://americanpulse-app.vercel.app',
+  description: 'Exploring how America is really doing through U.S. Census Bureau HTOPS pulse survey data.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'American Pulse',
+  },
 };
 
 export default function RootLayout({
@@ -31,6 +59,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
         <Navigation />
         <main className="flex-1">{children}</main>
         <Footer />

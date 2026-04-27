@@ -1,0 +1,117 @@
+{
+  "sufficiency": {
+    "counts": {
+      "1": 183736086.18054232,
+      "2": 58599355.88978603,
+      "3": 13789187.856705975,
+      "4": 4523952.654941599
+    },
+    "percentages": {
+      "1": 70.49,
+      "2": 22.48,
+      "3": 5.29,
+      "4": 1.74
+    },
+    "total": 260648582.5819759,
+    "n": 7467
+  },
+  "insecurePct": 7.03,
+  "byRegion": {
+    "South Atlantic": {
+      "foodInsufficient": 7.17,
+      "states": [
+        "DE",
+        "DC",
+        "FL",
+        "GA",
+        "MD",
+        "NC",
+        "SC",
+        "VA",
+        "WV"
+      ]
+    },
+    "West South Central": {
+      "foodInsufficient": 5.3,
+      "states": [
+        "AR",
+        "LA",
+        "OK",
+        "TX"
+      ]
+    },
+    "Pacific": {
+      "foodInsufficient": 7.47,
+      "states": [
+        "AK",
+        "CA",
+        "HI",
+        "OR",
+        "WA"
+      ]
+    },
+    "East South Central": {
+      "foodInsufficient": 8.12,
+      "states": [
+        "AL",
+        "KY",
+        "MS",
+        "TN"
+      ]
+    },
+    "Middle Atlantic": {
+      "foodInsufficient": 9.46,
+      "states": [
+        "NJ",
+        "NY",
+        "PA"
+      ]
+    },
+    "Mountain": {
+      "foodInsufficient": 5.32,
+      "states": [
+        "AZ",
+        "CO",
+        "ID",
+        "MT",
+        "NV",
+        "NM",
+        "UT",
+        "WY"
+      ]
+    },
+    "New England": {
+      "foodInsufficient": 6.97,
+      "states": [
+        "CT",
+        "ME",
+        "MA",
+        "NH",
+        "RI",
+        "VT"
+      ]
+    },
+    "East North Central": {
+      "foodInsufficient": 6.9,
+      "states": [
+        "IL",
+        "IN",
+        "MI",
+        "OH",
+        "WI"
+      ]
+    },
+    "West North Central": {
+      "foodInsufficient": 5.39,
+      "states": [
+        "IA",
+        "KS",
+        "MN",
+        "MO",
+        "NE",
+        "ND",
+        "SD"
+      ]
+    }
+  }
+}

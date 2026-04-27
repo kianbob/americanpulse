@@ -1,0 +1,443 @@
+{
+  "usage": {
+    "counts": {
+      "1": 62521872.61977063,
+      "2": 145030028.00011092,
+      "3": 52163407.09553601
+    },
+    "percentages": {
+      "1": 24.07,
+      "2": 55.84,
+      "3": 20.08
+    },
+    "total": 259715307.71541715,
+    "n": 7451
+  },
+  "tools": {
+    "Finding factual info": {
+      "percentage": 100,
+      "weighted": 90475195,
+      "n": 2983
+    },
+    "Schoolwork": {
+      "percentage": 100,
+      "weighted": 30088966,
+      "n": 651
+    },
+    "Work projects": {
+      "percentage": 100,
+      "weighted": 53707142,
+      "n": 1889
+    },
+    "Instead of hiring someone": {
+      "percentage": 100,
+      "weighted": 11677665,
+      "n": 376
+    },
+    "Creative tasks": {
+      "percentage": 100,
+      "weighted": 50403547,
+      "n": 1555
+    },
+    "Brainstorming": {
+      "percentage": 100,
+      "weighted": 59074332,
+      "n": 1924
+    },
+    "Integrated into product": {
+      "percentage": 100,
+      "weighted": 49176041,
+      "n": 1725
+    },
+    "Other": {
+      "percentage": 100,
+      "weighted": 110813496,
+      "n": 2706
+    },
+    "None": {
+      "percentage": 100,
+      "weighted": 4857486,
+      "n": 161
+    }
+  },
+  "purposes": {
+    "Entertainment": {
+      "percentage": 100,
+      "weighted": 61086357,
+      "n": 2074
+    },
+    "Work/productivity": {
+      "percentage": 100,
+      "weighted": 31230969,
+      "n": 909
+    },
+    "Education": {
+      "percentage": 100,
+      "weighted": 15898627,
+      "n": 583
+    },
+    "Health info": {
+      "percentage": 100,
+      "weighted": 20127397,
+      "n": 806
+    },
+    "Financial advice": {
+      "percentage": 100,
+      "weighted": 19993722,
+      "n": 535
+    },
+    "Shopping": {
+      "percentage": 100,
+      "weighted": 33195524,
+      "n": 1167
+    },
+    "Creative projects": {
+      "percentage": 100,
+      "weighted": 43512290,
+      "n": 1499
+    },
+    "Communication": {
+      "percentage": 100,
+      "weighted": 35223323,
+      "n": 1221
+    },
+    "Other": {
+      "percentage": 100,
+      "weighted": 40445766,
+      "n": 1249
+    }
+  },
+  "concerns": {
+    "Job displacement": {
+      "percentage": 100,
+      "weighted": 41590730,
+      "n": 1142
+    },
+    "Privacy/data": {
+      "percentage": 100,
+      "weighted": 83733441,
+      "n": 2187
+    },
+    "Misinformation": {
+      "percentage": 100,
+      "weighted": 37903445,
+      "n": 1157
+    },
+    "Bias/discrimination": {
+      "percentage": 100,
+      "weighted": 52780307,
+      "n": 1540
+    },
+    "Safety": {
+      "percentage": 100,
+      "weighted": 35432657,
+      "n": 1163
+    },
+    "Dependence": {
+      "percentage": 100,
+      "weighted": 39639625,
+      "n": 1173
+    },
+    "Lack of regulation": {
+      "percentage": 100,
+      "weighted": 20665031,
+      "n": 569
+    },
+    "Impact on children": {
+      "percentage": 100,
+      "weighted": 41669368,
+      "n": 1126
+    },
+    "Other": {
+      "percentage": 100,
+      "weighted": 109204911,
+      "n": 3109
+    }
+  },
+  "byAge": {
+    "25-39": {
+      "usedAI": 27.95,
+      "didNotUse": 52.66,
+      "notSure": 19.39,
+      "n": 1667
+    },
+    "55-64": {
+      "usedAI": 26.89,
+      "didNotUse": 54.25,
+      "notSure": 18.86,
+      "n": 1357
+    },
+    "40-54": {
+      "usedAI": 24.65,
+      "didNotUse": 56.39,
+      "notSure": 18.97,
+      "n": 1917
+    },
+    "65+": {
+      "usedAI": 18.84,
+      "didNotUse": 60.02,
+      "notSure": 21.14,
+      "n": 2366
+    },
+    "18-24": {
+      "usedAI": 20.69,
+      "didNotUse": 55.53,
+      "notSure": 23.77,
+      "n": 144
+    }
+  },
+  "byIncome": {
+    "$100K-$150K": {
+      "usedAI": 26.89,
+      "didNotUse": 56.45,
+      "notSure": 16.66,
+      "n": 1446
+    },
+    "$150K+": {
+      "usedAI": 25.08,
+      "didNotUse": 63.35,
+      "notSure": 11.57,
+      "n": 2028
+    },
+    "Under $25K": {
+      "usedAI": 18.83,
+      "didNotUse": 50.3,
+      "notSure": 30.87,
+      "n": 831
+    },
+    "$75K-$100K": {
+      "usedAI": 24.29,
+      "didNotUse": 58.59,
+      "notSure": 17.12,
+      "n": 955
+    },
+    "$35K-$50K": {
+      "usedAI": 21.75,
+      "didNotUse": 58.87,
+      "notSure": 19.38,
+      "n": 579
+    },
+    "$25K-$35K": {
+      "usedAI": 29.28,
+      "didNotUse": 52.92,
+      "notSure": 17.8,
+      "n": 354
+    },
+    "$50K-$75K": {
+      "usedAI": 26.44,
+      "didNotUse": 48.53,
+      "notSure": 25.04,
+      "n": 1162
+    }
+  },
+  "byEducation": {
+    "Bachelor's": {
+      "usedAI": 28.62,
+      "didNotUse": 57.44,
+      "notSure": 13.94,
+      "n": 2453
+    },
+    "Graduate degree": {
+      "usedAI": 27.59,
+      "didNotUse": 59.5,
+      "notSure": 12.91,
+      "n": 2387
+    },
+    "Some HS": {
+      "usedAI": 17.88,
+      "didNotUse": 49.4,
+      "notSure": 32.72,
+      "n": 115
+    },
+    "HS diploma/GED": {
+      "usedAI": 19.84,
+      "didNotUse": 54.54,
+      "notSure": 25.62,
+      "n": 736
+    },
+    "Associate degree": {
+      "usedAI": 28.31,
+      "didNotUse": 52.61,
+      "notSure": 19.08,
+      "n": 544
+    },
+    "Some college": {
+      "usedAI": 25.43,
+      "didNotUse": 58.03,
+      "notSure": 16.54,
+      "n": 1201
+    },
+    "Less than HS": {
+      "usedAI": 0,
+      "didNotUse": 50.56,
+      "notSure": 49.44,
+      "n": 15
+    }
+  },
+  "byMetro": {
+    "0": {
+      "usedAI": 24.47,
+      "didNotUse": 55.92,
+      "notSure": 19.61,
+      "n": 4121
+    },
+    "12060": {
+      "usedAI": 26.21,
+      "didNotUse": 49.82,
+      "notSure": 23.97,
+      "n": 329
+    },
+    "14460": {
+      "usedAI": 25.91,
+      "didNotUse": 61.08,
+      "notSure": 13.01,
+      "n": 327
+    },
+    "16980": {
+      "usedAI": 27.07,
+      "didNotUse": 51.94,
+      "notSure": 20.99,
+      "n": 397
+    },
+    "19100": {
+      "usedAI": 23.57,
+      "didNotUse": 62.52,
+      "notSure": 13.91,
+      "n": 321
+    },
+    "26420": {
+      "usedAI": 29.8,
+      "didNotUse": 58.37,
+      "notSure": 11.83,
+      "n": 266
+    },
+    "31080": {
+      "usedAI": 21.51,
+      "didNotUse": 55.75,
+      "notSure": 22.74,
+      "n": 334
+    },
+    "33100": {
+      "usedAI": 23.55,
+      "didNotUse": 56.26,
+      "notSure": 20.2,
+      "n": 210
+    },
+    "35620": {
+      "usedAI": 14.08,
+      "didNotUse": 58.58,
+      "notSure": 27.34,
+      "n": 329
+    },
+    "37980": {
+      "usedAI": 26.27,
+      "didNotUse": 53.28,
+      "notSure": 20.46,
+      "n": 310
+    },
+    "47900": {
+      "usedAI": 29.83,
+      "didNotUse": 42.46,
+      "notSure": 27.7,
+      "n": 507
+    }
+  },
+  "byRegion": {
+    "South Atlantic": {
+      "aiUsage": 24.2,
+      "states": [
+        "DE",
+        "DC",
+        "FL",
+        "GA",
+        "MD",
+        "NC",
+        "SC",
+        "VA",
+        "WV"
+      ]
+    },
+    "West South Central": {
+      "aiUsage": 22.16,
+      "states": [
+        "AR",
+        "LA",
+        "OK",
+        "TX"
+      ]
+    },
+    "Pacific": {
+      "aiUsage": 25.13,
+      "states": [
+        "AK",
+        "CA",
+        "HI",
+        "OR",
+        "WA"
+      ]
+    },
+    "East South Central": {
+      "aiUsage": 25.42,
+      "states": [
+        "AL",
+        "KY",
+        "MS",
+        "TN"
+      ]
+    },
+    "Middle Atlantic": {
+      "aiUsage": 19.27,
+      "states": [
+        "NJ",
+        "NY",
+        "PA"
+      ]
+    },
+    "Mountain": {
+      "aiUsage": 24.78,
+      "states": [
+        "AZ",
+        "CO",
+        "ID",
+        "MT",
+        "NV",
+        "NM",
+        "UT",
+        "WY"
+      ]
+    },
+    "New England": {
+      "aiUsage": 33.79,
+      "states": [
+        "CT",
+        "ME",
+        "MA",
+        "NH",
+        "RI",
+        "VT"
+      ]
+    },
+    "East North Central": {
+      "aiUsage": 21.67,
+      "states": [
+        "IL",
+        "IN",
+        "MI",
+        "OH",
+        "WI"
+      ]
+    },
+    "West North Central": {
+      "aiUsage": 30.43,
+      "states": [
+        "IA",
+        "KS",
+        "MN",
+        "MO",
+        "NE",
+        "ND",
+        "SD"
+      ]
+    }
+  }
+}

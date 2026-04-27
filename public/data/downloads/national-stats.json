@@ -1,0 +1,768 @@
+{
+  "meta": {
+    "source": "U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS)",
+    "wave": "2506",
+    "sampleSize": 7485,
+    "note": "All percentages are weighted using PWEIGHT. Geographic data is at Census Division level (PUF does not include state identifiers)."
+  },
+  "headlines": {
+    "aiUsagePct": 24.07,
+    "foodInsufficientPct": 7.03,
+    "housingBurden": {
+      "rentBehindPct": 8.87,
+      "mortgageBehindPct": 4.37
+    },
+    "uninsuredPct": 7.45,
+    "employedPct": 56.64,
+    "expenseDifficultyPct": 19.77
+  },
+  "ai": {
+    "usage": {
+      "counts": {
+        "1": 62521872.61977063,
+        "2": 145030028.00011092,
+        "3": 52163407.09553601
+      },
+      "percentages": {
+        "1": 24.07,
+        "2": 55.84,
+        "3": 20.08
+      },
+      "total": 259715307.71541715,
+      "n": 7451
+    },
+    "tools": {
+      "Finding factual info": {
+        "percentage": 100,
+        "weighted": 90475195,
+        "n": 2983
+      },
+      "Schoolwork": {
+        "percentage": 100,
+        "weighted": 30088966,
+        "n": 651
+      },
+      "Work projects": {
+        "percentage": 100,
+        "weighted": 53707142,
+        "n": 1889
+      },
+      "Instead of hiring someone": {
+        "percentage": 100,
+        "weighted": 11677665,
+        "n": 376
+      },
+      "Creative tasks": {
+        "percentage": 100,
+        "weighted": 50403547,
+        "n": 1555
+      },
+      "Brainstorming": {
+        "percentage": 100,
+        "weighted": 59074332,
+        "n": 1924
+      },
+      "Integrated into product": {
+        "percentage": 100,
+        "weighted": 49176041,
+        "n": 1725
+      },
+      "Other": {
+        "percentage": 100,
+        "weighted": 110813496,
+        "n": 2706
+      },
+      "None": {
+        "percentage": 100,
+        "weighted": 4857486,
+        "n": 161
+      }
+    },
+    "purposes": {
+      "Entertainment": {
+        "percentage": 100,
+        "weighted": 61086357,
+        "n": 2074
+      },
+      "Work/productivity": {
+        "percentage": 100,
+        "weighted": 31230969,
+        "n": 909
+      },
+      "Education": {
+        "percentage": 100,
+        "weighted": 15898627,
+        "n": 583
+      },
+      "Health info": {
+        "percentage": 100,
+        "weighted": 20127397,
+        "n": 806
+      },
+      "Financial advice": {
+        "percentage": 100,
+        "weighted": 19993722,
+        "n": 535
+      },
+      "Shopping": {
+        "percentage": 100,
+        "weighted": 33195524,
+        "n": 1167
+      },
+      "Creative projects": {
+        "percentage": 100,
+        "weighted": 43512290,
+        "n": 1499
+      },
+      "Communication": {
+        "percentage": 100,
+        "weighted": 35223323,
+        "n": 1221
+      },
+      "Other": {
+        "percentage": 100,
+        "weighted": 40445766,
+        "n": 1249
+      }
+    },
+    "concerns": {
+      "Job displacement": {
+        "percentage": 100,
+        "weighted": 41590730,
+        "n": 1142
+      },
+      "Privacy/data": {
+        "percentage": 100,
+        "weighted": 83733441,
+        "n": 2187
+      },
+      "Misinformation": {
+        "percentage": 100,
+        "weighted": 37903445,
+        "n": 1157
+      },
+      "Bias/discrimination": {
+        "percentage": 100,
+        "weighted": 52780307,
+        "n": 1540
+      },
+      "Safety": {
+        "percentage": 100,
+        "weighted": 35432657,
+        "n": 1163
+      },
+      "Dependence": {
+        "percentage": 100,
+        "weighted": 39639625,
+        "n": 1173
+      },
+      "Lack of regulation": {
+        "percentage": 100,
+        "weighted": 20665031,
+        "n": 569
+      },
+      "Impact on children": {
+        "percentage": 100,
+        "weighted": 41669368,
+        "n": 1126
+      },
+      "Other": {
+        "percentage": 100,
+        "weighted": 109204911,
+        "n": 3109
+      }
+    },
+    "byAge": {
+      "25-39": {
+        "usedAI": 27.95,
+        "didNotUse": 52.66,
+        "notSure": 19.39,
+        "n": 1667
+      },
+      "55-64": {
+        "usedAI": 26.89,
+        "didNotUse": 54.25,
+        "notSure": 18.86,
+        "n": 1357
+      },
+      "40-54": {
+        "usedAI": 24.65,
+        "didNotUse": 56.39,
+        "notSure": 18.97,
+        "n": 1917
+      },
+      "65+": {
+        "usedAI": 18.84,
+        "didNotUse": 60.02,
+        "notSure": 21.14,
+        "n": 2366
+      },
+      "18-24": {
+        "usedAI": 20.69,
+        "didNotUse": 55.53,
+        "notSure": 23.77,
+        "n": 144
+      }
+    },
+    "byIncome": {
+      "$100K-$150K": {
+        "usedAI": 26.89,
+        "didNotUse": 56.45,
+        "notSure": 16.66,
+        "n": 1446
+      },
+      "$150K+": {
+        "usedAI": 25.08,
+        "didNotUse": 63.35,
+        "notSure": 11.57,
+        "n": 2028
+      },
+      "Under $25K": {
+        "usedAI": 18.83,
+        "didNotUse": 50.3,
+        "notSure": 30.87,
+        "n": 831
+      },
+      "$75K-$100K": {
+        "usedAI": 24.29,
+        "didNotUse": 58.59,
+        "notSure": 17.12,
+        "n": 955
+      },
+      "$35K-$50K": {
+        "usedAI": 21.75,
+        "didNotUse": 58.87,
+        "notSure": 19.38,
+        "n": 579
+      },
+      "$25K-$35K": {
+        "usedAI": 29.28,
+        "didNotUse": 52.92,
+        "notSure": 17.8,
+        "n": 354
+      },
+      "$50K-$75K": {
+        "usedAI": 26.44,
+        "didNotUse": 48.53,
+        "notSure": 25.04,
+        "n": 1162
+      }
+    },
+    "byEducation": {
+      "Bachelor's": {
+        "usedAI": 28.62,
+        "didNotUse": 57.44,
+        "notSure": 13.94,
+        "n": 2453
+      },
+      "Graduate degree": {
+        "usedAI": 27.59,
+        "didNotUse": 59.5,
+        "notSure": 12.91,
+        "n": 2387
+      },
+      "Some HS": {
+        "usedAI": 17.88,
+        "didNotUse": 49.4,
+        "notSure": 32.72,
+        "n": 115
+      },
+      "HS diploma/GED": {
+        "usedAI": 19.84,
+        "didNotUse": 54.54,
+        "notSure": 25.62,
+        "n": 736
+      },
+      "Associate degree": {
+        "usedAI": 28.31,
+        "didNotUse": 52.61,
+        "notSure": 19.08,
+        "n": 544
+      },
+      "Some college": {
+        "usedAI": 25.43,
+        "didNotUse": 58.03,
+        "notSure": 16.54,
+        "n": 1201
+      },
+      "Less than HS": {
+        "usedAI": 0,
+        "didNotUse": 50.56,
+        "notSure": 49.44,
+        "n": 15
+      }
+    },
+    "byMetro": {
+      "0": {
+        "usedAI": 24.47,
+        "didNotUse": 55.92,
+        "notSure": 19.61,
+        "n": 4121
+      },
+      "12060": {
+        "usedAI": 26.21,
+        "didNotUse": 49.82,
+        "notSure": 23.97,
+        "n": 329
+      },
+      "14460": {
+        "usedAI": 25.91,
+        "didNotUse": 61.08,
+        "notSure": 13.01,
+        "n": 327
+      },
+      "16980": {
+        "usedAI": 27.07,
+        "didNotUse": 51.94,
+        "notSure": 20.99,
+        "n": 397
+      },
+      "19100": {
+        "usedAI": 23.57,
+        "didNotUse": 62.52,
+        "notSure": 13.91,
+        "n": 321
+      },
+      "26420": {
+        "usedAI": 29.8,
+        "didNotUse": 58.37,
+        "notSure": 11.83,
+        "n": 266
+      },
+      "31080": {
+        "usedAI": 21.51,
+        "didNotUse": 55.75,
+        "notSure": 22.74,
+        "n": 334
+      },
+      "33100": {
+        "usedAI": 23.55,
+        "didNotUse": 56.26,
+        "notSure": 20.2,
+        "n": 210
+      },
+      "35620": {
+        "usedAI": 14.08,
+        "didNotUse": 58.58,
+        "notSure": 27.34,
+        "n": 329
+      },
+      "37980": {
+        "usedAI": 26.27,
+        "didNotUse": 53.28,
+        "notSure": 20.46,
+        "n": 310
+      },
+      "47900": {
+        "usedAI": 29.83,
+        "didNotUse": 42.46,
+        "notSure": 27.7,
+        "n": 507
+      }
+    }
+  },
+  "food": {
+    "sufficiency": {
+      "counts": {
+        "1": 183736086.18054232,
+        "2": 58599355.88978603,
+        "3": 13789187.856705975,
+        "4": 4523952.654941599
+      },
+      "percentages": {
+        "1": 70.49,
+        "2": 22.48,
+        "3": 5.29,
+        "4": 1.74
+      },
+      "total": 260648582.5819759,
+      "n": 7467
+    },
+    "foodInsecurePct": 7.03
+  },
+  "housing": {
+    "tenure": {
+      "counts": {
+        "1": 66374794.00266324,
+        "2": 108788578.82615508,
+        "3": 79432133.7403176,
+        "4": 3489250.059596706
+      },
+      "percentages": {
+        "1": 25.72,
+        "2": 42.15,
+        "3": 30.78,
+        "4": 1.35
+      },
+      "total": 258084756.62873235,
+      "n": 7470
+    },
+    "rentCurrent": {
+      "counts": {
+        "1": 71798330.88069816,
+        "2": 6990466.292582574
+      },
+      "percentages": {
+        "1": 91.13,
+        "2": 8.87
+      },
+      "total": 78788797.17328069,
+      "n": 1826
+    },
+    "mortgageCurrent": {
+      "counts": {
+        "1": 103929397.37050247,
+        "2": 4744958.771973998
+      },
+      "percentages": {
+        "1": 95.63,
+        "2": 4.37
+      },
+      "total": 108674356.14247648,
+      "n": 3402
+    }
+  },
+  "employment": {
+    "anywork": {
+      "counts": {
+        "1": 147419048.13254634,
+        "2": 112856729.4286719
+      },
+      "percentages": {
+        "1": 56.64,
+        "2": 43.36
+      },
+      "total": 260275777.56121817,
+      "n": 7470
+    },
+    "workType": {
+      "counts": {
+        "1": 23231044.83997057,
+        "2": 87840919.09288648,
+        "3": 18222441.74053938,
+        "4": 13185157.662662106,
+        "5": 2416882.6556737116
+      },
+      "percentages": {
+        "1": 16.03,
+        "2": 60.62,
+        "3": 12.58,
+        "4": 9.1,
+        "5": 1.67
+      },
+      "total": 144896445.99173242,
+      "n": 4282
+    },
+    "telework": {
+      "counts": {
+        "1": 17749788.179137073,
+        "2": 11206698.909257602,
+        "3": 21649454.675567824,
+        "4": 96674591.00399409
+      },
+      "percentages": {
+        "1": 12.05,
+        "2": 7.61,
+        "3": 14.7,
+        "4": 65.64
+      },
+      "total": 147280532.76795682,
+      "n": 4305
+    }
+  },
+  "health": {
+    "insuranceTypes": {
+      "Employer/union": {
+        "percentage": 57.04,
+        "weighted": 143583883,
+        "n": 7143
+      },
+      "Purchased directly": {
+        "percentage": 15.64,
+        "weighted": 37416260,
+        "n": 6693
+      },
+      "Medicare": {
+        "percentage": 28.28,
+        "weighted": 70098282,
+        "n": 6987
+      },
+      "Medicaid": {
+        "percentage": 20.36,
+        "weighted": 48313515,
+        "n": 6541
+      },
+      "TRICARE": {
+        "percentage": 3.88,
+        "weighted": 9181531,
+        "n": 6541
+      },
+      "VA": {
+        "percentage": 5.45,
+        "weighted": 12864501,
+        "n": 6521
+      },
+      "Indian Health": {
+        "percentage": 0.8,
+        "weighted": 1889532,
+        "n": 6493
+      },
+      "Other": {
+        "percentage": 2.9,
+        "weighted": 6491967,
+        "n": 6228
+      }
+    },
+    "uninsuredPct": 7.45
+  },
+  "spending": {
+    "expenseDifficulty": {
+      "counts": {
+        "1": 123898961.52961536,
+        "2": 85169761.88862933,
+        "3": 31874186.12728777,
+        "4": 19660606.768644914
+      },
+      "percentages": {
+        "1": 47.54,
+        "2": 32.68,
+        "3": 12.23,
+        "4": 7.54
+      },
+      "total": 260603516.3141774,
+      "n": 7463
+    },
+    "priceChange": {
+      "counts": {
+        "1": 196398225.95805314,
+        "2": 43064595.77609454,
+        "3": 7666879.978340592,
+        "4": 13749997.728528963
+      },
+      "percentages": {
+        "1": 75.28,
+        "2": 16.51,
+        "3": 2.94,
+        "4": 5.27
+      },
+      "total": 260879699.44101718,
+      "n": 7472
+    }
+  },
+  "transportation": {
+    "modes": {
+      "Personal vehicle": {
+        "percentage": 100,
+        "weighted": 169080930,
+        "n": 5278
+      },
+      "Carpool": {
+        "percentage": 100,
+        "weighted": 65576524,
+        "n": 2265
+      },
+      "Public transit": {
+        "percentage": 100,
+        "weighted": 9378247,
+        "n": 242
+      },
+      "Walk": {
+        "percentage": 100,
+        "weighted": 222700326,
+        "n": 6764
+      },
+      "Bicycle": {
+        "percentage": 100,
+        "weighted": 38642938,
+        "n": 981
+      },
+      "Taxi/rideshare": {
+        "percentage": 100,
+        "weighted": 31473979,
+        "n": 1152
+      },
+      "Motorcycle": {
+        "percentage": 100,
+        "weighted": 77856559,
+        "n": 2926
+      },
+      "School bus": {
+        "percentage": 100,
+        "weighted": 81471543,
+        "n": 2522
+      },
+      "Work from home": {
+        "percentage": 100,
+        "weighted": 39286920,
+        "n": 1691
+      },
+      "Other": {
+        "percentage": 100,
+        "weighted": 6559482,
+        "n": 217
+      },
+      "No regular transport": {
+        "percentage": 100,
+        "weighted": 4302335,
+        "n": 161
+      },
+      "Did not report": {
+        "percentage": 100,
+        "weighted": 4714408,
+        "n": 111
+      }
+    }
+  },
+  "regions": {
+    "South Atlantic": {
+      "states": [
+        "DE",
+        "DC",
+        "FL",
+        "GA",
+        "MD",
+        "NC",
+        "SC",
+        "VA",
+        "WV"
+      ],
+      "n": 1762,
+      "aiUsage": 24.2,
+      "foodInsufficient": 7.17,
+      "expenseDifficult": 79.26,
+      "employed": 57.65,
+      "uninsured": 8.48,
+      "rentBehind": 15.11
+    },
+    "West South Central": {
+      "states": [
+        "AR",
+        "LA",
+        "OK",
+        "TX"
+      ],
+      "n": 896,
+      "aiUsage": 22.16,
+      "foodInsufficient": 5.3,
+      "expenseDifficult": 79.21,
+      "employed": 56.93,
+      "uninsured": 16.1,
+      "rentBehind": 2.47
+    },
+    "Pacific": {
+      "states": [
+        "AK",
+        "CA",
+        "HI",
+        "OR",
+        "WA"
+      ],
+      "n": 901,
+      "aiUsage": 25.13,
+      "foodInsufficient": 7.47,
+      "expenseDifficult": 77.51,
+      "employed": 55.31,
+      "uninsured": 3.61,
+      "rentBehind": 6.23
+    },
+    "East South Central": {
+      "states": [
+        "AL",
+        "KY",
+        "MS",
+        "TN"
+      ],
+      "n": 334,
+      "aiUsage": 25.42,
+      "foodInsufficient": 8.12,
+      "expenseDifficult": 75.58,
+      "employed": 59.06,
+      "uninsured": 5.67,
+      "rentBehind": 4.04
+    },
+    "Middle Atlantic": {
+      "states": [
+        "NJ",
+        "NY",
+        "PA"
+      ],
+      "n": 917,
+      "aiUsage": 19.27,
+      "foodInsufficient": 9.46,
+      "expenseDifficult": 82.94,
+      "employed": 55.71,
+      "uninsured": 4.08,
+      "rentBehind": 21.23
+    },
+    "Mountain": {
+      "states": [
+        "AZ",
+        "CO",
+        "ID",
+        "MT",
+        "NV",
+        "NM",
+        "UT",
+        "WY"
+      ],
+      "n": 464,
+      "aiUsage": 24.78,
+      "foodInsufficient": 5.32,
+      "expenseDifficult": 79.02,
+      "employed": 52.5,
+      "uninsured": 8.61,
+      "rentBehind": 1.61
+    },
+    "New England": {
+      "states": [
+        "CT",
+        "ME",
+        "MA",
+        "NH",
+        "RI",
+        "VT"
+      ],
+      "n": 645,
+      "aiUsage": 33.79,
+      "foodInsufficient": 6.97,
+      "expenseDifficult": 79.43,
+      "employed": 59,
+      "uninsured": 9.56,
+      "rentBehind": 5.19
+    },
+    "East North Central": {
+      "states": [
+        "IL",
+        "IN",
+        "MI",
+        "OH",
+        "WI"
+      ],
+      "n": 1051,
+      "aiUsage": 21.67,
+      "foodInsufficient": 6.9,
+      "expenseDifficult": 82.67,
+      "employed": 58.37,
+      "uninsured": 6.55,
+      "rentBehind": 2.19
+    },
+    "West North Central": {
+      "states": [
+        "IA",
+        "KS",
+        "MN",
+        "MO",
+        "NE",
+        "ND",
+        "SD"
+      ],
+      "n": 515,
+      "aiUsage": 30.43,
+      "foodInsufficient": 5.39,
+      "expenseDifficult": 87.71,
+      "employed": 55.32,
+      "uninsured": 4.13,
+      "rentBehind": 5.32
+    }
+  }
+}

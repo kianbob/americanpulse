@@ -1,0 +1,140 @@
+{
+  "tenure": {
+    "counts": {
+      "1": 66374794.00266324,
+      "2": 108788578.82615508,
+      "3": 79432133.7403176,
+      "4": 3489250.059596706
+    },
+    "percentages": {
+      "1": 25.72,
+      "2": 42.15,
+      "3": 30.78,
+      "4": 1.35
+    },
+    "total": 258084756.62873235,
+    "n": 7470
+  },
+  "rentCurrent": {
+    "counts": {
+      "1": 71798330.88069816,
+      "2": 6990466.292582574
+    },
+    "percentages": {
+      "1": 91.13,
+      "2": 8.87
+    },
+    "total": 78788797.17328069,
+    "n": 1826
+  },
+  "mortgageCurrent": {
+    "counts": {
+      "1": 103929397.37050247,
+      "2": 4744958.771973998
+    },
+    "percentages": {
+      "1": 95.63,
+      "2": 4.37
+    },
+    "total": 108674356.14247648,
+    "n": 3402
+  },
+  "byRegion": {
+    "South Atlantic": {
+      "rentBehind": 15.11,
+      "states": [
+        "DE",
+        "DC",
+        "FL",
+        "GA",
+        "MD",
+        "NC",
+        "SC",
+        "VA",
+        "WV"
+      ]
+    },
+    "West South Central": {
+      "rentBehind": 2.47,
+      "states": [
+        "AR",
+        "LA",
+        "OK",
+        "TX"
+      ]
+    },
+    "Pacific": {
+      "rentBehind": 6.23,
+      "states": [
+        "AK",
+        "CA",
+        "HI",
+        "OR",
+        "WA"
+      ]
+    },
+    "East South Central": {
+      "rentBehind": 4.04,
+      "states": [
+        "AL",
+        "KY",
+        "MS",
+        "TN"
+      ]
+    },
+    "Middle Atlantic": {
+      "rentBehind": 21.23,
+      "states": [
+        "NJ",
+        "NY",
+        "PA"
+      ]
+    },
+    "Mountain": {
+      "rentBehind": 1.61,
+      "states": [
+        "AZ",
+        "CO",
+        "ID",
+        "MT",
+        "NV",
+        "NM",
+        "UT",
+        "WY"
+      ]
+    },
+    "New England": {
+      "rentBehind": 5.19,
+      "states": [
+        "CT",
+        "ME",
+        "MA",
+        "NH",
+        "RI",
+        "VT"
+      ]
+    },
+    "East North Central": {
+      "rentBehind": 2.19,
+      "states": [
+        "IL",
+        "IN",
+        "MI",
+        "OH",
+        "WI"
+      ]
+    },
+    "West North Central": {
+      "rentBehind": 5.32,
+      "states": [
+        "IA",
+        "KS",
+        "MN",
+        "MO",
+        "NE",
+        "ND",
+        "SD"
+      ]
+    }
+  }
+}

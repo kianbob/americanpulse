@@ -1,3 +1,10 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About — American Pulse',
+  description: 'About the American Pulse project, data methodology, Census divisions, and privacy policy.',
+};
+
 export default function AboutPage() {
   return (
     <div>
@@ -77,6 +84,35 @@ export default function AboutPage() {
             It is not affiliated with or endorsed by the U.S. Census Bureau. Data
             is sourced from the HTOPS Public Use File (PUF).
           </p>
+        </section>
+
+        <section id="privacy" className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Privacy Policy</h2>
+          <div className="space-y-4 text-gray-700 leading-relaxed">
+            <p>
+              American Pulse is a static data visualization website. We are committed to protecting your privacy.
+            </p>
+            <p>
+              <strong>Data Collection:</strong> This website does not collect personal information from visitors.
+              We do not use cookies for tracking, and we do not require account creation or login.
+            </p>
+            <p>
+              <strong>Analytics:</strong> This site may use basic analytics (via the hosting platform, Vercel) to understand
+              aggregate traffic patterns such as page views and visitor counts. No personally identifiable information is collected.
+            </p>
+            <p>
+              <strong>Third-Party Links:</strong> This site contains links to external websites (Census Bureau, sister sites).
+              We are not responsible for the privacy practices of those sites.
+            </p>
+            <p>
+              <strong>Data Downloads:</strong> The data files available for download on this site are derived from
+              publicly available U.S. Census Bureau data and contain no personal information about individual respondents.
+            </p>
+            <p>
+              <strong>Contact:</strong> For questions about this privacy policy or the data presented on this site,
+              please reach out via the project repository.
+            </p>
+          </div>
         </section>
       </div>
     </div>
