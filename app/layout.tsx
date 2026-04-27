@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     url: 'https://americanpulse-app.vercel.app',
     siteName: 'American Pulse',
     type: 'website',
+    images: ['/og-image.png'],
   },
   twitter: {
     card: 'summary_large_image',
@@ -59,6 +60,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        {/* GA: Add tracking ID here */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}

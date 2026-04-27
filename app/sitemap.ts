@@ -54,6 +54,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/downloads`, changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${base}/methodology`, changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${base}/about`, changeFrequency: 'monthly' as const, priority: 0.5 },
+    { url: `${base}/trends`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/ai-usage-statistics`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/food-insecurity-by-state`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/housing-cost-burden`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/cost-of-living-by-state`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${base}/embed/ai-usage`, changeFrequency: 'monthly' as const, priority: 0.4 },
+    { url: `${base}/embed/food-map`, changeFrequency: 'monthly' as const, priority: 0.4 },
+    { url: `${base}/embed/wellbeing`, changeFrequency: 'monthly' as const, priority: 0.4 },
   ];
 
   const regionPages = regionSlugs.map((slug) => ({

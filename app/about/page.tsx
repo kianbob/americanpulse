@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -18,28 +19,52 @@ export default function AboutPage() {
       </section>
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
+        {/* What is American Pulse */}
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">Data Source</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-4">What Is American Pulse?</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            All data on this site comes from the{' '}
-            <a
-              href="https://www.census.gov/programs-surveys/household-pulse-survey.html"
-              className="text-[--primary] hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS)
-            </a>
-            , Wave 2506.
+            American Pulse is a free, open data visualization platform that makes U.S. Census Bureau data accessible and understandable. We transform raw survey data into interactive charts, maps, and analysis covering AI adoption, food security, housing affordability, employment, health insurance, and spending across America.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            The HTOPS is a rapid-response survey designed to measure how emerging
-            social and economic issues are impacting American households. It covers
-            topics including AI usage, food security, housing, employment, health
-            insurance, spending, and transportation.
+            Our goal is to answer one question: <strong>How is America really doing?</strong> By combining data from multiple federal sources, we provide a comprehensive, data-driven picture of American life in 2026.
           </p>
         </section>
 
+        {/* Data Sources */}
+        <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Data Sources</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            American Pulse draws on multiple official government data sources:
+          </p>
+          <ul className="space-y-3 text-gray-700">
+            <li className="flex gap-3">
+              <span className="text-[--primary] font-bold shrink-0">&#8226;</span>
+              <span><strong>U.S. Census Bureau HTOPS</strong> — Household Trends and Outlook Pulse Survey (primary source, Wave 2506, March 2026)</span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[--primary] font-bold shrink-0">&#8226;</span>
+              <span><strong>CDC PLACES</strong> — Local health indicators and chronic disease prevalence</span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[--primary] font-bold shrink-0">&#8226;</span>
+              <span><strong>Census ACS</strong> — American Community Survey demographic and economic profiles</span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[--primary] font-bold shrink-0">&#8226;</span>
+              <span><strong>USDA ERS</strong> — Economic Research Service food security data</span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[--primary] font-bold shrink-0">&#8226;</span>
+              <span><strong>BLS</strong> — Bureau of Labor Statistics employment and unemployment data</span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[--primary] font-bold shrink-0">&#8226;</span>
+              <span><strong>FRED</strong> — Federal Reserve Economic Data on housing and economic indicators</span>
+            </li>
+          </ul>
+        </section>
+
+        {/* Methodology */}
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Methodology</h2>
           <ul className="space-y-3 text-gray-700">
@@ -60,8 +85,14 @@ export default function AboutPage() {
               <span><strong>Multi-select questions:</strong> For topics like AI tools, purposes, concerns, transportation modes, and insurance types, respondents could select multiple options</span>
             </li>
           </ul>
+          <div className="mt-4">
+            <Link href="/methodology" className="text-[--primary] hover:underline text-sm font-medium">
+              View full methodology &rarr;
+            </Link>
+          </div>
         </section>
 
+        {/* Census Divisions */}
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Census Divisions</h2>
           <div className="grid sm:grid-cols-2 gap-4 text-sm text-gray-700">
@@ -77,6 +108,32 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Who Built This */}
+        <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Who Built This</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Built by Kian O Connor as part of{' '}
+            <a
+              href="https://thedataproject.ai"
+              className="text-[--primary] hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              TheDataProject.ai
+            </a>
+            {' '}&mdash; a portfolio of 60+ data-driven websites making government and public data accessible to everyone.
+          </p>
+        </section>
+
+        {/* AI Disclosure */}
+        <section className="bg-blue-50 rounded-xl border border-blue-200 p-6 sm:p-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">AI Disclosure</h2>
+          <p className="text-gray-700 leading-relaxed">
+            This site uses AI-assisted content generation and data analysis. All statistics are derived from official government data sources. AI tools were used to help process raw data, generate analysis text, and build interactive visualizations. The underlying data is always sourced from the U.S. Census Bureau and other federal agencies listed above.
+          </p>
+        </section>
+
+        {/* Attribution */}
         <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Attribution</h2>
           <p className="text-gray-700 leading-relaxed">
@@ -86,6 +143,7 @@ export default function AboutPage() {
           </p>
         </section>
 
+        {/* Privacy */}
         <section id="privacy" className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Privacy Policy</h2>
           <div className="space-y-4 text-gray-700 leading-relaxed">
@@ -110,7 +168,15 @@ export default function AboutPage() {
             </p>
             <p>
               <strong>Contact:</strong> For questions about this privacy policy or the data presented on this site,
-              please reach out via the project repository.
+              please visit{' '}
+              <a
+                href="https://thedataproject.ai"
+                className="text-[--primary] hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TheDataProject.ai
+              </a>.
             </p>
           </div>
         </section>

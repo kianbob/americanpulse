@@ -7,6 +7,9 @@ const sisterSites = [
   { name: 'nationalhealthratings.com', href: 'https://nationalhealthratings.com' },
   { name: 'drivedata.org', href: 'https://drivedata.org' },
   { name: 'foodinsider.org', href: 'https://foodinsider.org' },
+  { name: 'ppploanlookup.com', href: 'https://ppploanlookup.com' },
+  { name: 'governmentsalaries.org', href: 'https://governmentsalaries.org' },
+  { name: 'election-money.thedataproject.ai', href: 'https://election-money.thedataproject.ai' },
 ];
 
 export default function Footer() {
@@ -19,6 +22,12 @@ export default function Footer() {
             <div className="text-xl font-bold text-white mb-3">American Pulse</div>
             <p className="text-sm text-gray-400 leading-relaxed">
               Data from the U.S. Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), March 2026. Wave 2506 &middot; Weighted estimates using PWEIGHT.
+            </p>
+            <p className="text-sm text-gray-400 mt-3">
+              Built by Kian O Connor &middot; Part of{' '}
+              <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
+                TheDataProject.ai
+              </a>
             </p>
             <div className="mt-4">
               <Link href="/about#privacy" className="text-sm text-gray-400 hover:text-white transition-colors">
@@ -61,7 +70,14 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-6 text-center">
+        {/* Data Sources */}
+        <div className="border-t border-gray-800 mt-8 pt-6">
+          <p className="text-xs text-gray-500 text-center">
+            Data Sources: U.S. Census Bureau HTOPS &middot; CDC PLACES &middot; Census ACS &middot; USDA ERS &middot; BLS &middot; FRED
+          </p>
+        </div>
+
+        <div className="border-t border-gray-800 mt-4 pt-4 text-center">
           <p className="text-xs text-gray-500">
             This project is an independent analysis of publicly available Census data. Not affiliated with or endorsed by the U.S. Census Bureau.
           </p>

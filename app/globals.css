@@ -29,7 +29,21 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
+/* Marquee animation for Quick Stats ticker */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
 @media print {
+  @page {
+    margin: 1.5cm;
+    size: auto;
+  }
+
   body {
     background: white;
     font-size: 14px;
@@ -63,11 +77,28 @@ body {
   .shadow-md, .shadow-lg, .shadow {
     box-shadow: none !important;
   }
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #6b7280;
+  }
+  a[href^="#"]::after,
+  a[href^="javascript"]::after {
+    content: "";
+  }
   a {
     color: inherit !important;
-    text-decoration: none !important;
+    text-decoration: underline !important;
   }
-  .h-3 {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 0.5px solid #d1d5db;
+    padding: 4px 8px;
+  }
+  .h-3, svg, [class*="bg-"] {
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
   }
