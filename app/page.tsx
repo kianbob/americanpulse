@@ -103,13 +103,13 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
             <Link
               href="/calculator"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-[--primary] text-white rounded-xl font-semibold text-lg shadow-lg shadow-blue-500/25 hover:bg-blue-700 hover:shadow-xl hover:shadow-blue-500/30 hover:-translate-y-0.5 transition-all"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-xl font-semibold text-lg shadow-lg shadow-blue-500/25 hover:bg-blue-700 hover:shadow-xl hover:shadow-blue-500/30 hover:-translate-y-0.5 transition-all"
             >
               How Are You Doing? →
             </Link>
             <a
               href="#explore"
-              className="inline-flex items-center gap-2 px-8 py-4 border-2 border-[--primary] text-[--primary] rounded-xl font-semibold text-lg hover:bg-[--primary] hover:text-white hover:-translate-y-0.5 transition-all"
+              className="inline-flex items-center gap-2 px-8 py-4 border-2 border-blue-600 text-blue-600 rounded-xl font-semibold text-lg hover:bg-blue-600 hover:text-white hover:-translate-y-0.5 transition-all"
             >
               Explore the Data
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
